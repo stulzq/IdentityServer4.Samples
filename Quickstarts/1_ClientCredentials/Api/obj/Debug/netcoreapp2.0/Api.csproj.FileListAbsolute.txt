@@ -1,0 +1,11 @@
+I:\Development\Projects\VS2017\IdentityServer4Demo1\Api\bin\Debug\netcoreapp2.0\Api.deps.json
+I:\Development\Projects\VS2017\IdentityServer4Demo1\Api\bin\Debug\netcoreapp2.0\Api.runtimeconfig.json
+I:\Development\Projects\VS2017\IdentityServer4Demo1\Api\bin\Debug\netcoreapp2.0\Api.runtimeconfig.dev.json
+I:\Development\Projects\VS2017\IdentityServer4Demo1\Api\bin\Debug\netcoreapp2.0\Api.dll
+I:\Development\Projects\VS2017\IdentityServer4Demo1\Api\obj\Debug\netcoreapp2.0\Api.csproj.CoreCompileInputs.cache
+I:\Development\Projects\VS2017\IdentityServer4Demo1\Api\obj\Debug\netcoreapp2.0\Api.AssemblyInfoInputs.cache
+I:\Development\Projects\VS2017\IdentityServer4Demo1\Api\obj\Debug\netcoreapp2.0\Api.AssemblyInfo.cs
+I:\Development\Projects\VS2017\IdentityServer4Demo1\Api\obj\Debug\netcoreapp2.0\Api.csprojResolveAssemblyReference.cache
+I:\Development\Projects\VS2017\IdentityServer4Demo1\Api\bin\Debug\netcoreapp2.0\Api.pdb
+I:\Development\Projects\VS2017\IdentityServer4Demo1\Api\obj\Debug\netcoreapp2.0\Api.dll
+I:\Development\Projects\VS2017\IdentityServer4Demo1\Api\obj\Debug\netcoreapp2.0\Api.pdb

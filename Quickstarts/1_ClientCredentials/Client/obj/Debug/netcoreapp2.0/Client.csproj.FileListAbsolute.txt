@@ -1,0 +1,11 @@
+I:\Development\Projects\VS2017\IdentityServer4Demo1\Client\bin\Debug\netcoreapp2.0\Client.deps.json
+I:\Development\Projects\VS2017\IdentityServer4Demo1\Client\bin\Debug\netcoreapp2.0\Client.runtimeconfig.json
+I:\Development\Projects\VS2017\IdentityServer4Demo1\Client\bin\Debug\netcoreapp2.0\Client.runtimeconfig.dev.json
+I:\Development\Projects\VS2017\IdentityServer4Demo1\Client\bin\Debug\netcoreapp2.0\Client.dll
+I:\Development\Projects\VS2017\IdentityServer4Demo1\Client\obj\Debug\netcoreapp2.0\Client.csproj.CoreCompileInputs.cache
+I:\Development\Projects\VS2017\IdentityServer4Demo1\Client\obj\Debug\netcoreapp2.0\Client.AssemblyInfoInputs.cache
+I:\Development\Projects\VS2017\IdentityServer4Demo1\Client\obj\Debug\netcoreapp2.0\Client.AssemblyInfo.cs
+I:\Development\Projects\VS2017\IdentityServer4Demo1\Client\bin\Debug\netcoreapp2.0\Client.pdb
+I:\Development\Projects\VS2017\IdentityServer4Demo1\Client\obj\Debug\netcoreapp2.0\Client.dll
+I:\Development\Projects\VS2017\IdentityServer4Demo1\Client\obj\Debug\netcoreapp2.0\Client.pdb
+I:\Development\Projects\VS2017\IdentityServer4Demo1\Client\obj\Debug\netcoreapp2.0\Client.csprojResolveAssemblyReference.cache

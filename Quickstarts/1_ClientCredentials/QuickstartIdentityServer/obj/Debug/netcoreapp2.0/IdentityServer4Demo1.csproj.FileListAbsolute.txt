@@ -1,0 +1,11 @@
+I:\Development\Projects\VS2017\IdentityServer4Demo1\IdentityServer4Demo1\bin\Debug\netcoreapp2.0\IdentityServer4Demo1.deps.json
+I:\Development\Projects\VS2017\IdentityServer4Demo1\IdentityServer4Demo1\bin\Debug\netcoreapp2.0\IdentityServer4Demo1.runtimeconfig.json
+I:\Development\Projects\VS2017\IdentityServer4Demo1\IdentityServer4Demo1\bin\Debug\netcoreapp2.0\IdentityServer4Demo1.runtimeconfig.dev.json
+I:\Development\Projects\VS2017\IdentityServer4Demo1\IdentityServer4Demo1\bin\Debug\netcoreapp2.0\IdentityServer4Demo1.dll
+I:\Development\Projects\VS2017\IdentityServer4Demo1\IdentityServer4Demo1\obj\Debug\netcoreapp2.0\IdentityServer4Demo1.csprojResolveAssemblyReference.cache
+I:\Development\Projects\VS2017\IdentityServer4Demo1\IdentityServer4Demo1\obj\Debug\netcoreapp2.0\IdentityServer4Demo1.csproj.CoreCompileInputs.cache
+I:\Development\Projects\VS2017\IdentityServer4Demo1\IdentityServer4Demo1\obj\Debug\netcoreapp2.0\IdentityServer4Demo1.AssemblyInfoInputs.cache
+I:\Development\Projects\VS2017\IdentityServer4Demo1\IdentityServer4Demo1\obj\Debug\netcoreapp2.0\IdentityServer4Demo1.AssemblyInfo.cs
+I:\Development\Projects\VS2017\IdentityServer4Demo1\IdentityServer4Demo1\bin\Debug\netcoreapp2.0\IdentityServer4Demo1.pdb
+I:\Development\Projects\VS2017\IdentityServer4Demo1\IdentityServer4Demo1\obj\Debug\netcoreapp2.0\IdentityServer4Demo1.dll
+I:\Development\Projects\VS2017\IdentityServer4Demo1\IdentityServer4Demo1\obj\Debug\netcoreapp2.0\IdentityServer4Demo1.pdb
