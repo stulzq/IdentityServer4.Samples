@@ -16,3 +16,6 @@
 /Quickstarts/2_ResourceOwnerPasswords/QuickstartIdentityServer/obj
 /Quickstarts/2_ResourceOwnerPasswords/QuickstartIdentityServer/bin/Debug/netcoreapp2.0
 /Quickstarts/2_ResourceOwnerPasswords/.vs/Quickstart2_ResourceOwnerPasswords/v15
+/Quickstarts/2_ResourceOwnerPasswords/.vs
+/Quickstarts/2_ResourceOwnerPasswords/ResourceOwnerClient/obj
+/Quickstarts/2_ResourceOwnerPasswords/ResourceOwnerClient/bin
