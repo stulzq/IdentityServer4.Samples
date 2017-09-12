@@ -15,11 +15,11 @@ namespace ResourceOwnerClient
 		    // 从元数据中发现客户端
 		    var disco = await DiscoveryClient.GetAsync("http://localhost:5000");
 
-		    // 请求令牌
-		    var tokenClient = new TokenClient(disco.TokenEndpoint, "client1", "secret");
-		    var tokenResponse = await tokenClient.RequestClientCredentialsAsync("api1");
+			// 请求令牌
+			var tokenClient = new TokenClient(disco.TokenEndpoint, "ro.client", "secret");
+		    var tokenResponse = await tokenClient.RequestResourceOwnerPasswordAsync("alice", "password", "api1");
 
-		    if (tokenResponse.IsError)
+			if (tokenResponse.IsError)
 		    {
 			    Console.WriteLine(tokenResponse.Error);
 			    return;
