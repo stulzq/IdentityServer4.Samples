@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 using IdentityModel.Client;
 using Newtonsoft.Json.Linq;
 
-namespace Client
+namespace ResourceOwnerClient
 {
     class Program
     {
