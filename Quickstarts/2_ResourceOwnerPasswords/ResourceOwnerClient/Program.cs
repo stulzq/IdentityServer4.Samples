@@ -11,9 +11,10 @@ namespace ResourceOwnerClient
         static void Main(string[] args) => MainAsync().GetAwaiter().GetResult();
 
 		private static async Task MainAsync()
-	    {
-		    // 从元数据中发现客户端
-		    var disco = await DiscoveryClient.GetAsync("http://localhost:5000");
+		{
+			Console.Title = "ResourceOwnerPassword Client";
+			// 从元数据中发现客户端
+			var disco = await DiscoveryClient.GetAsync("http://localhost:5000");
 
 			// 请求令牌
 			var tokenClient = new TokenClient(disco.TokenEndpoint, "ro.client", "secret");

@@ -12,6 +12,7 @@ namespace Client
 
 		private static async Task MainAsync()
 		{
+			Console.Title = "Credentials Client";
 			// 从元数据中发现客户端
 			var disco = await DiscoveryClient.GetAsync("http://localhost:5000");
 

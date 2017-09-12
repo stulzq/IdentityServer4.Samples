@@ -34,9 +34,9 @@ namespace Api
 				.AddAuthentication(IdentityServerAuthenticationDefaults.AuthenticationScheme)
 		        .AddIdentityServerAuthentication(IdentityServerAuthenticationDefaults.AuthenticationScheme, (option) =>
 		        {
-			        option.Authority = "http://localhost:5000";
-			        option.RequireHttpsMetadata = false;
-			        option.ApiName = "api1";
+			        option.Authority = "http://localhost:5000";//identityserver4地址
+			        option.RequireHttpsMetadata = false;//使用https
+			        option.ApiName = "api1";//api scope
 		        });
 
 	        #endregion
