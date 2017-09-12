@@ -4,3 +4,14 @@
 /Quickstarts/1_ClientCredentials/Client/bin
 /Quickstarts/1_ClientCredentials/QuickstartIdentityServer/obj
 /Quickstarts/1_ClientCredentials/QuickstartIdentityServer/bin
+/Quickstarts/1_ClientCredentials/.vs
+/Quickstarts/2_ResourceOwnerPasswords/.vs/Quickstart2_ResourceOwnerPasswords/v15/sqlite3
+/Quickstarts/2_ResourceOwnerPasswords/Api/bin/Debug/netcoreapp2.0
+/Quickstarts/2_ResourceOwnerPasswords/Api/obj
+/Quickstarts/2_ResourceOwnerPasswords/Api/Api.csproj.user
+/Quickstarts/2_ResourceOwnerPasswords/Client/obj
+/Quickstarts/2_ResourceOwnerPasswords/Client/bin/Debug/netcoreapp2.0
+/Quickstarts/2_ResourceOwnerPasswords/paket.dependencies
+/Quickstarts/2_ResourceOwnerPasswords/QuickstartIdentityServer/QuickstartIdentityServer.csproj.user
+/Quickstarts/2_ResourceOwnerPasswords/QuickstartIdentityServer/obj
+/Quickstarts/2_ResourceOwnerPasswords/QuickstartIdentityServer/bin/Debug/netcoreapp2.0
