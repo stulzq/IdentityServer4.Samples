@@ -19,7 +19,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ResourceOwnerClient", "src\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MvcClient", "src\MvcClient\MvcClient.csproj", "{4CFB4883-9929-4814-BE22-2E19476CE4A3}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.AspNetCore.Authentication.QQ", "..\..\..\Development\01_ProjectCode\QQConnect\src\Microsoft.AspNetCore.Authentication.QQConnect\Microsoft.AspNetCore.Authentication.QQ.csproj", "{1B3FA610-E055-4370-9743-07B30AF8314B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.AspNetCore.Authentication.QQ", "src\Microsoft.AspNetCore.Authentication.QQConnect\Microsoft.AspNetCore.Authentication.QQ.csproj", "{2E251BAE-DA78-4BF9-ADA5-957E4A4A5319}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,10 +47,10 @@ Global
 		{4CFB4883-9929-4814-BE22-2E19476CE4A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4CFB4883-9929-4814-BE22-2E19476CE4A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4CFB4883-9929-4814-BE22-2E19476CE4A3}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1B3FA610-E055-4370-9743-07B30AF8314B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1B3FA610-E055-4370-9743-07B30AF8314B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1B3FA610-E055-4370-9743-07B30AF8314B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1B3FA610-E055-4370-9743-07B30AF8314B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E251BAE-DA78-4BF9-ADA5-957E4A4A5319}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E251BAE-DA78-4BF9-ADA5-957E4A4A5319}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E251BAE-DA78-4BF9-ADA5-957E4A4A5319}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E251BAE-DA78-4BF9-ADA5-957E4A4A5319}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
