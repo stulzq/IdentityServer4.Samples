@@ -1,0 +1,11 @@
+F:\OpenSource\BlogDemos\Id4RoleAndClaim\src\ResourceOwnerClient\bin\Debug\netcoreapp2.0\ResourceOwnerClient.deps.json
+F:\OpenSource\BlogDemos\Id4RoleAndClaim\src\ResourceOwnerClient\bin\Debug\netcoreapp2.0\ResourceOwnerClient.runtimeconfig.json
+F:\OpenSource\BlogDemos\Id4RoleAndClaim\src\ResourceOwnerClient\bin\Debug\netcoreapp2.0\ResourceOwnerClient.runtimeconfig.dev.json
+F:\OpenSource\BlogDemos\Id4RoleAndClaim\src\ResourceOwnerClient\bin\Debug\netcoreapp2.0\ResourceOwnerClient.dll
+F:\OpenSource\BlogDemos\Id4RoleAndClaim\src\ResourceOwnerClient\bin\Debug\netcoreapp2.0\ResourceOwnerClient.pdb
+F:\OpenSource\BlogDemos\Id4RoleAndClaim\src\ResourceOwnerClient\obj\Debug\netcoreapp2.0\ResourceOwnerClient.csprojResolveAssemblyReference.cache
+F:\OpenSource\BlogDemos\Id4RoleAndClaim\src\ResourceOwnerClient\obj\Debug\netcoreapp2.0\ResourceOwnerClient.csproj.CoreCompileInputs.cache
+F:\OpenSource\BlogDemos\Id4RoleAndClaim\src\ResourceOwnerClient\obj\Debug\netcoreapp2.0\ResourceOwnerClient.AssemblyInfoInputs.cache
+F:\OpenSource\BlogDemos\Id4RoleAndClaim\src\ResourceOwnerClient\obj\Debug\netcoreapp2.0\ResourceOwnerClient.AssemblyInfo.cs
+F:\OpenSource\BlogDemos\Id4RoleAndClaim\src\ResourceOwnerClient\obj\Debug\netcoreapp2.0\ResourceOwnerClient.dll
+F:\OpenSource\BlogDemos\Id4RoleAndClaim\src\ResourceOwnerClient\obj\Debug\netcoreapp2.0\ResourceOwnerClient.pdb
