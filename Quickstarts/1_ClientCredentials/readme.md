@@ -5,6 +5,6 @@ This approach is typically used for server to server communication.
 
 ## Tutorial
 
-The tutorial that goes along with this sample can be found here [Client Credentials](http://docs.identityserver.io/en/release/quickstarts/1_client_credentials.html)
+The tutorial that goes along with this sample can be found here [Client Credentials](http://docs.identityserver.io/en/latest/quickstarts/1_client_credentials.html)
 
 

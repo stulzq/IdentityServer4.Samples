@@ -15,19 +15,18 @@ namespace Api
                 .AddJsonFormatters();
 
             services.AddAuthentication("Bearer")
-                .AddIdentityServerAuthentication(options =>
+                .AddJwtBearer("Bearer", options =>
                 {
                     options.Authority = "http://localhost:5000";
                     options.RequireHttpsMetadata = false;
 
-                    options.ApiName = "api1";
+                    options.Audience = "api1";
                 });
         }
 
         public void Configure(IApplicationBuilder app)
         {
             app.UseAuthentication();
-
             app.UseMvc();
         }
     }
