@@ -1,0 +1,888 @@
+2019-02-01 14:10:36.863 +08:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2019-02-01 14:10:36.906 +08:00 [INF] Using the default authentication scheme idsrv for IdentityServer
+2019-02-01 14:10:36.912 +08:00 [DBG] Using idsrv as default ASP.NET Core scheme for authentication
+2019-02-01 14:10:36.912 +08:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-in
+2019-02-01 14:10:36.913 +08:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-out
+2019-02-01 14:10:36.913 +08:00 [DBG] Using idsrv as default ASP.NET Core scheme for challenge
+2019-02-01 14:10:36.914 +08:00 [DBG] Using idsrv as default ASP.NET Core scheme for forbid
+2019-02-01 14:10:37.049 +08:00 [FTL] Unable to start Kestrel.
+System.IO.IOException: Failed to bind to address http://127.0.0.1:5000: address already in use. ---> Microsoft.AspNetCore.Connections.AddressInUseException: 通常每个套接字地址(协议/网络地址/端口)只允许使用一次。 ---> System.Net.Sockets.SocketException: 通常每个套接字地址(协议/网络地址/端口)只允许使用一次。
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, String callerName)
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransport.BindAsync()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransport.BindAsync()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.<>c__DisplayClass22_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.LocalhostListenOptions.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(IServerAddressesFeature addresses, KestrelServerOptions serverOptions, ILogger logger, Func`2 createBinding)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+2019-02-01 14:10:49.632 +08:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2019-02-01 14:10:49.670 +08:00 [INF] Using the default authentication scheme idsrv for IdentityServer
+2019-02-01 14:10:49.674 +08:00 [DBG] Using idsrv as default ASP.NET Core scheme for authentication
+2019-02-01 14:10:49.675 +08:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-in
+2019-02-01 14:10:49.675 +08:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-out
+2019-02-01 14:10:49.676 +08:00 [DBG] Using idsrv as default ASP.NET Core scheme for challenge
+2019-02-01 14:10:49.677 +08:00 [DBG] Using idsrv as default ASP.NET Core scheme for forbid
+2019-02-01 14:11:20.723 +08:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2019-02-01 14:11:20.766 +08:00 [INF] Using the default authentication scheme idsrv for IdentityServer
+2019-02-01 14:11:20.773 +08:00 [DBG] Using idsrv as default ASP.NET Core scheme for authentication
+2019-02-01 14:11:20.774 +08:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-in
+2019-02-01 14:11:20.774 +08:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-out
+2019-02-01 14:11:20.775 +08:00 [DBG] Using idsrv as default ASP.NET Core scheme for challenge
+2019-02-01 14:11:20.776 +08:00 [DBG] Using idsrv as default ASP.NET Core scheme for forbid
+2019-02-01 14:12:14.922 +08:00 [DBG] Login Url: /Account/Login
+2019-02-01 14:12:23.896 +08:00 [DBG] Login Return Url Parameter: ReturnUrl
+2019-02-01 14:12:23.904 +08:00 [DBG] Logout Url: /Account/Logout
+2019-02-01 14:12:23.907 +08:00 [DBG] ConsentUrl Url: /consent
+2019-02-01 14:12:23.910 +08:00 [DBG] Consent Return Url Parameter: returnUrl
+2019-02-01 14:12:23.914 +08:00 [DBG] Error Url: /home/error
+2019-02-01 14:12:23.918 +08:00 [DBG] Error Id Parameter: errorId
+2019-02-01 14:12:24.085 +08:00 [INF] AuthenticationScheme: idsrv was challenged.
+2019-02-01 14:12:38.237 +08:00 [INF] AuthenticationScheme: idsrv was challenged.
+2019-02-01 14:12:45.443 +08:00 [INF] AuthenticationScheme: idsrv was challenged.
+2019-02-01 14:13:02.182 +08:00 [INF] AuthenticationScheme: idsrv was challenged.
+2019-02-01 14:14:12.905 +08:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2019-02-01 14:14:12.945 +08:00 [INF] Using the default authentication scheme idsrv for IdentityServer
+2019-02-01 14:14:12.949 +08:00 [DBG] Using idsrv as default ASP.NET Core scheme for authentication
+2019-02-01 14:14:12.950 +08:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-in
+2019-02-01 14:14:12.950 +08:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-out
+2019-02-01 14:14:12.951 +08:00 [DBG] Using idsrv as default ASP.NET Core scheme for challenge
+2019-02-01 14:14:12.952 +08:00 [DBG] Using idsrv as default ASP.NET Core scheme for forbid
+2019-02-01 14:14:15.958 +08:00 [DBG] Login Url: /Account/Login
+2019-02-01 14:14:15.962 +08:00 [DBG] Login Return Url Parameter: ReturnUrl
+2019-02-01 14:14:15.963 +08:00 [DBG] Logout Url: /Account/Logout
+2019-02-01 14:14:15.963 +08:00 [DBG] ConsentUrl Url: /consent
+2019-02-01 14:14:15.964 +08:00 [DBG] Consent Return Url Parameter: returnUrl
+2019-02-01 14:14:15.965 +08:00 [DBG] Error Url: /home/error
+2019-02-01 14:14:15.965 +08:00 [DBG] Error Id Parameter: errorId
+2019-02-01 14:14:16.082 +08:00 [INF] AuthenticationScheme: idsrv was challenged.
+2019-02-01 14:14:33.023 +08:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2019-02-01 14:14:33.063 +08:00 [INF] Using the default authentication scheme Bearer for IdentityServer
+2019-02-01 14:14:33.069 +08:00 [ERR] Authentication scheme Bearer is configured for IdentityServer, but it is not a scheme that supports signin (like cookies). Either configure the default authentication scheme with cookies or set the CookieAuthenticationScheme on the IdentityServerOptions.
+2019-02-01 14:14:33.072 +08:00 [DBG] Using Bearer as default ASP.NET Core scheme for authentication
+2019-02-01 14:14:33.072 +08:00 [DBG] Using Bearer as default ASP.NET Core scheme for sign-in
+2019-02-01 14:14:33.073 +08:00 [DBG] Using Bearer as default ASP.NET Core scheme for sign-out
+2019-02-01 14:14:33.073 +08:00 [DBG] Using Bearer as default ASP.NET Core scheme for challenge
+2019-02-01 14:14:33.074 +08:00 [DBG] Using Bearer as default ASP.NET Core scheme for forbid
+2019-02-01 14:14:42.940 +08:00 [INF] AuthenticationScheme: Bearer was challenged.
+2019-02-01 14:14:52.703 +08:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2019-02-01 14:14:52.741 +08:00 [INF] Using the default authentication scheme Bearer for IdentityServer
+2019-02-01 14:14:52.745 +08:00 [ERR] Authentication scheme Bearer is configured for IdentityServer, but it is not a scheme that supports signin (like cookies). Either configure the default authentication scheme with cookies or set the CookieAuthenticationScheme on the IdentityServerOptions.
+2019-02-01 14:14:52.745 +08:00 [DBG] Using Bearer as default ASP.NET Core scheme for authentication
+2019-02-01 14:14:52.746 +08:00 [DBG] Using Bearer as default ASP.NET Core scheme for sign-in
+2019-02-01 14:14:52.746 +08:00 [DBG] Using Bearer as default ASP.NET Core scheme for sign-out
+2019-02-01 14:14:52.747 +08:00 [DBG] Using Bearer as default ASP.NET Core scheme for challenge
+2019-02-01 14:14:52.748 +08:00 [DBG] Using Bearer as default ASP.NET Core scheme for forbid
+2019-02-01 14:15:04.223 +08:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2019-02-01 14:15:04.264 +08:00 [INF] Using the default authentication scheme Bearer for IdentityServer
+2019-02-01 14:15:04.268 +08:00 [ERR] Authentication scheme Bearer is configured for IdentityServer, but it is not a scheme that supports signin (like cookies). Either configure the default authentication scheme with cookies or set the CookieAuthenticationScheme on the IdentityServerOptions.
+2019-02-01 14:15:04.269 +08:00 [DBG] Using Bearer as default ASP.NET Core scheme for authentication
+2019-02-01 14:15:04.270 +08:00 [DBG] Using Bearer as default ASP.NET Core scheme for sign-in
+2019-02-01 14:15:04.270 +08:00 [DBG] Using Bearer as default ASP.NET Core scheme for sign-out
+2019-02-01 14:15:04.271 +08:00 [DBG] Using Bearer as default ASP.NET Core scheme for challenge
+2019-02-01 14:15:04.271 +08:00 [DBG] Using Bearer as default ASP.NET Core scheme for forbid
+2019-02-01 14:15:07.185 +08:00 [INF] AuthenticationScheme: Bearer was challenged.
+2019-02-01 14:15:08.100 +08:00 [INF] AuthenticationScheme: Bearer was challenged.
+2019-02-01 14:15:09.637 +08:00 [INF] AuthenticationScheme: Bearer was challenged.
+2019-02-01 14:15:29.920 +08:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2019-02-01 14:15:29.962 +08:00 [INF] Using the default authentication scheme idsrv for IdentityServer
+2019-02-01 14:15:29.966 +08:00 [DBG] Using idsrv as default ASP.NET Core scheme for authentication
+2019-02-01 14:15:29.966 +08:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-in
+2019-02-01 14:15:29.967 +08:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-out
+2019-02-01 14:15:29.967 +08:00 [DBG] Using idsrv as default ASP.NET Core scheme for challenge
+2019-02-01 14:15:29.968 +08:00 [DBG] Using idsrv as default ASP.NET Core scheme for forbid
+2019-02-01 14:15:32.095 +08:00 [DBG] Login Url: /Account/Login
+2019-02-01 14:15:32.099 +08:00 [DBG] Login Return Url Parameter: ReturnUrl
+2019-02-01 14:15:32.100 +08:00 [DBG] Logout Url: /Account/Logout
+2019-02-01 14:15:32.101 +08:00 [DBG] ConsentUrl Url: /consent
+2019-02-01 14:15:32.101 +08:00 [DBG] Consent Return Url Parameter: returnUrl
+2019-02-01 14:15:32.102 +08:00 [DBG] Error Url: /home/error
+2019-02-01 14:15:32.102 +08:00 [DBG] Error Id Parameter: errorId
+2019-02-01 14:15:32.218 +08:00 [INF] AuthenticationScheme: idsrv was challenged.
+2019-02-01 14:15:33.264 +08:00 [INF] AuthenticationScheme: idsrv was challenged.
+2019-02-01 14:15:48.218 +08:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2019-02-01 14:15:48.256 +08:00 [INF] Using the default authentication scheme Bearer for IdentityServer
+2019-02-01 14:15:48.262 +08:00 [ERR] Authentication scheme Bearer is configured for IdentityServer, but it is not a scheme that supports signin (like cookies). Either configure the default authentication scheme with cookies or set the CookieAuthenticationScheme on the IdentityServerOptions.
+2019-02-01 14:15:48.264 +08:00 [DBG] Using Bearer as default ASP.NET Core scheme for authentication
+2019-02-01 14:15:48.264 +08:00 [DBG] Using Bearer as default ASP.NET Core scheme for sign-in
+2019-02-01 14:15:48.265 +08:00 [DBG] Using Bearer as default ASP.NET Core scheme for sign-out
+2019-02-01 14:15:48.265 +08:00 [DBG] Using Bearer as default ASP.NET Core scheme for challenge
+2019-02-01 14:15:48.266 +08:00 [DBG] Using Bearer as default ASP.NET Core scheme for forbid
+2019-02-01 14:16:51.747 +08:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2019-02-01 14:16:51.785 +08:00 [INF] Using the default authentication scheme idsrv for IdentityServer
+2019-02-01 14:16:51.791 +08:00 [DBG] Using idsrv as default ASP.NET Core scheme for authentication
+2019-02-01 14:16:51.791 +08:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-in
+2019-02-01 14:16:51.792 +08:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-out
+2019-02-01 14:16:51.793 +08:00 [DBG] Using idsrv as default ASP.NET Core scheme for challenge
+2019-02-01 14:16:51.794 +08:00 [DBG] Using idsrv as default ASP.NET Core scheme for forbid
+2019-02-01 14:17:07.847 +08:00 [DBG] Login Url: /Account/Login
+2019-02-01 14:17:07.849 +08:00 [DBG] Login Return Url Parameter: ReturnUrl
+2019-02-01 14:17:07.851 +08:00 [DBG] Logout Url: /Account/Logout
+2019-02-01 14:17:07.853 +08:00 [DBG] ConsentUrl Url: /consent
+2019-02-01 14:17:07.854 +08:00 [DBG] Consent Return Url Parameter: returnUrl
+2019-02-01 14:17:07.854 +08:00 [DBG] Error Url: /home/error
+2019-02-01 14:17:07.855 +08:00 [DBG] Error Id Parameter: errorId
+2019-02-01 14:17:07.977 +08:00 [INF] AuthenticationScheme: idsrv was challenged.
+2019-02-01 14:17:10.851 +08:00 [INF] AuthenticationScheme: idsrv was challenged.
+2019-02-01 14:17:26.429 +08:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2019-02-01 14:17:26.471 +08:00 [INF] Using the default authentication scheme Bearer for IdentityServer
+2019-02-01 14:17:26.477 +08:00 [ERR] Authentication scheme Bearer is configured for IdentityServer, but it is not a scheme that supports signin (like cookies). Either configure the default authentication scheme with cookies or set the CookieAuthenticationScheme on the IdentityServerOptions.
+2019-02-01 14:17:26.479 +08:00 [DBG] Using Bearer as default ASP.NET Core scheme for authentication
+2019-02-01 14:17:26.480 +08:00 [DBG] Using Bearer as default ASP.NET Core scheme for sign-in
+2019-02-01 14:17:26.483 +08:00 [DBG] Using Bearer as default ASP.NET Core scheme for sign-out
+2019-02-01 14:17:26.483 +08:00 [DBG] Using Bearer as default ASP.NET Core scheme for challenge
+2019-02-01 14:17:26.484 +08:00 [DBG] Using Bearer as default ASP.NET Core scheme for forbid
+2019-02-01 14:17:38.073 +08:00 [INF] AuthenticationScheme: Bearer was challenged.
+2019-02-01 14:20:55.709 +08:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2019-02-01 14:20:55.749 +08:00 [INF] Using explicitly configured authentication scheme iden for IdentityServer
+2019-02-01 14:20:55.806 +08:00 [FTL] Application startup exception
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Microsoft.AspNetCore.Builder.IdentityServerApplicationBuilderExtensions.ValidateAsync(IServiceProvider services, ILogger logger) in C:\local\identity\server4\IdentityServer4\src\Configuration\IdentityServerApplicationBuilderExtensions.cs:line 103
+   at Microsoft.AspNetCore.Builder.IdentityServerApplicationBuilderExtensions.Validate(IApplicationBuilder app) in C:\local\identity\server4\IdentityServer4\src\Configuration\IdentityServerApplicationBuilderExtensions.cs:line 74
+   at Microsoft.AspNetCore.Builder.IdentityServerApplicationBuilderExtensions.UseIdentityServer(IApplicationBuilder app) in C:\local\identity\server4\IdentityServer4\src\Configuration\IdentityServerApplicationBuilderExtensions.cs:line 30
+   at IdentityServer.Startup.Configure(IApplicationBuilder app) in F:\OpenSource\IdentityServer4.Samples.Custom\Practice\05_Integration\src\IdentityServer\Startup.cs:line 62
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Hosting.ConventionBasedStartup.Configure(IApplicationBuilder app)
+   at Microsoft.AspNetCore.HostFilteringStartupFilter.<>c__DisplayClass0_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Hosting.Internal.AutoRequestServicesStartupFilter.<>c__DisplayClass0_0.<Configure>b__0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.BuildApplication()
+2019-02-01 14:21:30.795 +08:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2019-02-01 14:21:30.834 +08:00 [INF] Using the default authentication scheme Bearer for IdentityServer
+2019-02-01 14:21:30.838 +08:00 [ERR] Authentication scheme Bearer is configured for IdentityServer, but it is not a scheme that supports signin (like cookies). Either configure the default authentication scheme with cookies or set the CookieAuthenticationScheme on the IdentityServerOptions.
+2019-02-01 14:21:30.839 +08:00 [DBG] Using Bearer as default ASP.NET Core scheme for authentication
+2019-02-01 14:21:30.839 +08:00 [DBG] Using Bearer as default ASP.NET Core scheme for sign-in
+2019-02-01 14:21:30.840 +08:00 [DBG] Using Bearer as default ASP.NET Core scheme for sign-out
+2019-02-01 14:21:30.840 +08:00 [DBG] Using Bearer as default ASP.NET Core scheme for challenge
+2019-02-01 14:21:30.840 +08:00 [DBG] Using Bearer as default ASP.NET Core scheme for forbid
+2019-02-01 14:25:02.913 +08:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2019-02-01 14:25:02.951 +08:00 [INF] Using the default authentication scheme idsrv for IdentityServer
+2019-02-01 14:25:02.955 +08:00 [DBG] Using idsrv as default ASP.NET Core scheme for authentication
+2019-02-01 14:25:02.956 +08:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-in
+2019-02-01 14:25:02.957 +08:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-out
+2019-02-01 14:25:02.958 +08:00 [DBG] Using idsrv as default ASP.NET Core scheme for challenge
+2019-02-01 14:25:02.960 +08:00 [DBG] Using idsrv as default ASP.NET Core scheme for forbid
+2019-02-01 14:25:14.383 +08:00 [DBG] Login Url: /Account/Login
+2019-02-01 14:25:14.385 +08:00 [DBG] Login Return Url Parameter: ReturnUrl
+2019-02-01 14:25:14.387 +08:00 [DBG] Logout Url: /Account/Logout
+2019-02-01 14:25:14.388 +08:00 [DBG] ConsentUrl Url: /consent
+2019-02-01 14:25:14.389 +08:00 [DBG] Consent Return Url Parameter: returnUrl
+2019-02-01 14:25:14.389 +08:00 [DBG] Error Url: /home/error
+2019-02-01 14:25:14.390 +08:00 [DBG] Error Id Parameter: errorId
+2019-02-01 14:25:14.518 +08:00 [INF] AuthenticationScheme: idsrv was challenged.
+2019-02-01 14:25:50.642 +08:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2019-02-01 14:25:50.680 +08:00 [INF] Using explicitly configured authentication scheme dummy for IdentityServer
+2019-02-01 14:25:50.684 +08:00 [DBG] Using idsrv as default ASP.NET Core scheme for authentication
+2019-02-01 14:25:50.685 +08:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-in
+2019-02-01 14:25:50.685 +08:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-out
+2019-02-01 14:25:50.686 +08:00 [DBG] Using idsrv as default ASP.NET Core scheme for challenge
+2019-02-01 14:25:50.687 +08:00 [DBG] Using idsrv as default ASP.NET Core scheme for forbid
+2019-02-01 14:25:55.902 +08:00 [DBG] Login Url: /Account/Login
+2019-02-01 14:25:55.904 +08:00 [DBG] Login Return Url Parameter: ReturnUrl
+2019-02-01 14:25:55.906 +08:00 [DBG] Logout Url: /Account/Logout
+2019-02-01 14:25:55.907 +08:00 [DBG] ConsentUrl Url: /consent
+2019-02-01 14:25:55.908 +08:00 [DBG] Consent Return Url Parameter: returnUrl
+2019-02-01 14:25:55.908 +08:00 [DBG] Error Url: /home/error
+2019-02-01 14:25:55.909 +08:00 [DBG] Error Id Parameter: errorId
+2019-02-01 14:25:56.007 +08:00 [INF] AuthenticationScheme: idsrv was challenged.
+2019-02-01 14:25:57.197 +08:00 [INF] AuthenticationScheme: idsrv was challenged.
+2019-02-01 14:26:15.138 +08:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2019-02-01 14:26:15.179 +08:00 [INF] Using explicitly configured authentication scheme dummy for IdentityServer
+2019-02-01 14:26:15.184 +08:00 [DBG] Using Bearer as default ASP.NET Core scheme for authentication
+2019-02-01 14:26:15.185 +08:00 [DBG] Using Bearer as default ASP.NET Core scheme for sign-in
+2019-02-01 14:26:15.185 +08:00 [DBG] Using Bearer as default ASP.NET Core scheme for sign-out
+2019-02-01 14:26:15.186 +08:00 [DBG] Using Bearer as default ASP.NET Core scheme for challenge
+2019-02-01 14:26:15.187 +08:00 [DBG] Using Bearer as default ASP.NET Core scheme for forbid
+2019-02-01 14:26:20.867 +08:00 [DBG] Login Url: /Account/Login
+2019-02-01 14:26:20.869 +08:00 [DBG] Login Return Url Parameter: ReturnUrl
+2019-02-01 14:26:20.871 +08:00 [DBG] Logout Url: /Account/Logout
+2019-02-01 14:26:20.871 +08:00 [DBG] ConsentUrl Url: /consent
+2019-02-01 14:26:20.872 +08:00 [DBG] Consent Return Url Parameter: returnUrl
+2019-02-01 14:26:20.873 +08:00 [DBG] Error Url: /home/error
+2019-02-01 14:26:20.873 +08:00 [DBG] Error Id Parameter: errorId
+2019-02-01 14:26:20.970 +08:00 [INF] AuthenticationScheme: Bearer was challenged.
+2019-02-01 14:27:26.934 +08:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2019-02-01 14:27:26.972 +08:00 [INF] Using explicitly configured authentication scheme  for IdentityServer
+2019-02-01 14:27:27.015 +08:00 [FTL] Application startup exception
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Microsoft.AspNetCore.Builder.IdentityServerApplicationBuilderExtensions.ValidateAsync(IServiceProvider services, ILogger logger) in C:\local\identity\server4\IdentityServer4\src\Configuration\IdentityServerApplicationBuilderExtensions.cs:line 103
+   at Microsoft.AspNetCore.Builder.IdentityServerApplicationBuilderExtensions.Validate(IApplicationBuilder app) in C:\local\identity\server4\IdentityServer4\src\Configuration\IdentityServerApplicationBuilderExtensions.cs:line 74
+   at Microsoft.AspNetCore.Builder.IdentityServerApplicationBuilderExtensions.UseIdentityServer(IApplicationBuilder app) in C:\local\identity\server4\IdentityServer4\src\Configuration\IdentityServerApplicationBuilderExtensions.cs:line 30
+   at IdentityServer.Startup.Configure(IApplicationBuilder app) in F:\OpenSource\IdentityServer4.Samples.Custom\Practice\05_Integration\src\IdentityServer\Startup.cs:line 69
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Hosting.ConventionBasedStartup.Configure(IApplicationBuilder app)
+   at Microsoft.AspNetCore.HostFilteringStartupFilter.<>c__DisplayClass0_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Hosting.Internal.AutoRequestServicesStartupFilter.<>c__DisplayClass0_0.<Configure>b__0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.BuildApplication()
+2019-02-01 14:29:02.552 +08:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2019-02-01 14:29:02.649 +08:00 [FTL] Application startup exception
+System.InvalidOperationException: Scheme already exists: idsrv
+   at Microsoft.AspNetCore.Authentication.AuthenticationOptions.AddScheme(String name, Action`1 configureBuilder)
+   at Microsoft.AspNetCore.Authentication.AuthenticationBuilder.<>c__DisplayClass4_0`2.<AddSchemeHelper>b__0(AuthenticationOptions o)
+   at Microsoft.Extensions.Options.ConfigureNamedOptions`1.Configure(String name, TOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.OptionsManager`1.<>c__DisplayClass5_0.<Get>b__0()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+   at System.Lazy`1.CreateValue()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd(String name, Func`1 createOptions)
+   at Microsoft.Extensions.Options.OptionsManager`1.Get(String name)
+   at Microsoft.Extensions.Options.OptionsManager`1.get_Value()
+   at Microsoft.AspNetCore.Authentication.AuthenticationSchemeProvider..ctor(IOptions`1 options, IDictionary`2 schemes)
+   at Microsoft.AspNetCore.Authentication.AuthenticationSchemeProvider..ctor(IOptions`1 options)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(IServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScoped(ScopedCallSite scopedCallSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitSingleton(SingletonCallSite singletonCallSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(IServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass1_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.AspNetCore.Builder.IdentityServerApplicationBuilderExtensions.ValidateAsync(IServiceProvider services, ILogger logger)
+   at Microsoft.AspNetCore.Builder.IdentityServerApplicationBuilderExtensions.Validate(IApplicationBuilder app) in C:\local\identity\server4\IdentityServer4\src\Configuration\IdentityServerApplicationBuilderExtensions.cs:line 74
+   at Microsoft.AspNetCore.Builder.IdentityServerApplicationBuilderExtensions.UseIdentityServer(IApplicationBuilder app) in C:\local\identity\server4\IdentityServer4\src\Configuration\IdentityServerApplicationBuilderExtensions.cs:line 30
+   at IdentityServer.Startup.Configure(IApplicationBuilder app) in F:\OpenSource\IdentityServer4.Samples.Custom\Practice\05_Integration\src\IdentityServer\Startup.cs:line 70
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Hosting.ConventionBasedStartup.Configure(IApplicationBuilder app)
+   at Microsoft.AspNetCore.HostFilteringStartupFilter.<>c__DisplayClass0_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Hosting.Internal.AutoRequestServicesStartupFilter.<>c__DisplayClass0_0.<Configure>b__0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.BuildApplication()
+2019-02-01 14:29:24.449 +08:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2019-02-01 14:29:24.485 +08:00 [INF] Using explicitly configured authentication scheme dummy for IdentityServer
+2019-02-01 14:29:24.491 +08:00 [DBG] Using Bearer as default ASP.NET Core scheme for authentication
+2019-02-01 14:29:24.492 +08:00 [DBG] Using Bearer as default ASP.NET Core scheme for sign-in
+2019-02-01 14:29:24.492 +08:00 [DBG] Using Bearer as default ASP.NET Core scheme for sign-out
+2019-02-01 14:29:24.493 +08:00 [DBG] Using Bearer as default ASP.NET Core scheme for challenge
+2019-02-01 14:29:24.494 +08:00 [DBG] Using Bearer as default ASP.NET Core scheme for forbid
+2019-02-01 14:29:44.407 +08:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2019-02-01 14:29:44.495 +08:00 [FTL] Application startup exception
+System.InvalidOperationException: Scheme already exists: idsrv
+   at Microsoft.AspNetCore.Authentication.AuthenticationOptions.AddScheme(String name, Action`1 configureBuilder)
+   at Microsoft.AspNetCore.Authentication.AuthenticationBuilder.<>c__DisplayClass4_0`2.<AddSchemeHelper>b__0(AuthenticationOptions o)
+   at Microsoft.Extensions.Options.ConfigureNamedOptions`1.Configure(String name, TOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.OptionsManager`1.<>c__DisplayClass5_0.<Get>b__0()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+   at System.Lazy`1.CreateValue()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd(String name, Func`1 createOptions)
+   at Microsoft.Extensions.Options.OptionsManager`1.Get(String name)
+   at Microsoft.Extensions.Options.OptionsManager`1.get_Value()
+   at Microsoft.AspNetCore.Authentication.AuthenticationSchemeProvider..ctor(IOptions`1 options, IDictionary`2 schemes)
+   at Microsoft.AspNetCore.Authentication.AuthenticationSchemeProvider..ctor(IOptions`1 options)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(IServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScoped(ScopedCallSite scopedCallSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitSingleton(SingletonCallSite singletonCallSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(IServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass1_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngine.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.AspNetCore.Builder.IdentityServerApplicationBuilderExtensions.ValidateAsync(IServiceProvider services, ILogger logger)
+   at Microsoft.AspNetCore.Builder.IdentityServerApplicationBuilderExtensions.Validate(IApplicationBuilder app) in C:\local\identity\server4\IdentityServer4\src\Configuration\IdentityServerApplicationBuilderExtensions.cs:line 74
+   at Microsoft.AspNetCore.Builder.IdentityServerApplicationBuilderExtensions.UseIdentityServer(IApplicationBuilder app) in C:\local\identity\server4\IdentityServer4\src\Configuration\IdentityServerApplicationBuilderExtensions.cs:line 30
+   at IdentityServer.Startup.Configure(IApplicationBuilder app) in F:\OpenSource\IdentityServer4.Samples.Custom\Practice\05_Integration\src\IdentityServer\Startup.cs:line 69
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Hosting.ConventionBasedStartup.Configure(IApplicationBuilder app)
+   at Microsoft.AspNetCore.HostFilteringStartupFilter.<>c__DisplayClass0_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Hosting.Internal.AutoRequestServicesStartupFilter.<>c__DisplayClass0_0.<Configure>b__0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.BuildApplication()
+2019-02-01 14:30:01.882 +08:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2019-02-01 14:30:01.920 +08:00 [INF] Using explicitly configured authentication scheme xc for IdentityServer
+2019-02-01 14:30:01.924 +08:00 [DBG] Using Bearer as default ASP.NET Core scheme for authentication
+2019-02-01 14:30:01.924 +08:00 [DBG] Using Bearer as default ASP.NET Core scheme for sign-in
+2019-02-01 14:30:01.926 +08:00 [DBG] Using Bearer as default ASP.NET Core scheme for sign-out
+2019-02-01 14:30:01.926 +08:00 [DBG] Using Bearer as default ASP.NET Core scheme for challenge
+2019-02-01 14:30:01.927 +08:00 [DBG] Using Bearer as default ASP.NET Core scheme for forbid
+2019-02-01 14:31:54.521 +08:00 [DBG] Login Url: /Account/Login
+2019-02-01 14:31:54.523 +08:00 [DBG] Login Return Url Parameter: ReturnUrl
+2019-02-01 14:31:54.524 +08:00 [DBG] Logout Url: /Account/Logout
+2019-02-01 14:31:54.525 +08:00 [DBG] ConsentUrl Url: /consent
+2019-02-01 14:31:54.526 +08:00 [DBG] Consent Return Url Parameter: returnUrl
+2019-02-01 14:31:54.526 +08:00 [DBG] Error Url: /home/error
+2019-02-01 14:31:54.527 +08:00 [DBG] Error Id Parameter: errorId
+2019-02-01 14:31:54.534 +08:00 [DBG] Request path /connect/token matched to endpoint type Token
+2019-02-01 14:31:54.544 +08:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2019-02-01 14:31:54.545 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2019-02-01 14:31:54.554 +08:00 [DBG] Start token request.
+2019-02-01 14:31:54.560 +08:00 [DBG] Start client validation
+2019-02-01 14:31:54.565 +08:00 [DBG] Start parsing Basic Authentication secret
+2019-02-01 14:31:54.569 +08:00 [DBG] Start parsing for secret in post body
+2019-02-01 14:31:54.593 +08:00 [DBG] Parser found secret: PostBodySecretParser
+2019-02-01 14:31:54.593 +08:00 [DBG] Secret id found: ro.client
+2019-02-01 14:31:54.606 +08:00 [DBG] client configuration validation for client ro.client succeeded.
+2019-02-01 14:31:54.618 +08:00 [DBG] Secret validator success: HashedSharedSecretValidator
+2019-02-01 14:31:54.618 +08:00 [DBG] Client validation success
+2019-02-01 14:31:54.631 +08:00 [DBG] Start token request validation
+2019-02-01 14:31:54.641 +08:00 [DBG] Start resource owner password token request validation
+2019-02-01 14:31:54.678 +08:00 [DBG] IsActive called from: ResourceOwnerValidation
+2019-02-01 14:31:54.680 +08:00 [DBG] Resource owner password token request validation success.
+2019-02-01 14:31:54.690 +08:00 [INF] Token request validation success
+{"ClientId":"ro.client","ClientName":null,"GrantType":"password","Scopes":"api1","AuthorizationCode":null,"RefreshToken":null,"UserName":"bob","AuthenticationContextReferenceClasses":null,"Tenant":null,"IdP":null,"Raw":{"grant_type":"password","client_id":"ro.client","client_secret":"***REDACTED***","username":"bob","password":"***REDACTED***"},"$type":"TokenRequestValidationLog"}
+2019-02-01 14:31:54.726 +08:00 [DBG] Getting claims for access token for client: ro.client
+2019-02-01 14:31:54.727 +08:00 [DBG] Getting claims for access token for subject: 2
+2019-02-01 14:31:54.732 +08:00 [DBG] Get profile called for subject 2 from client ro.client with claim types [] via ClaimsProviderAccessToken
+2019-02-01 14:31:54.735 +08:00 [DBG] Issued claims: []
+2019-02-01 14:31:54.815 +08:00 [DBG] Token request success.
+2019-02-01 14:32:26.077 +08:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2019-02-01 14:32:26.080 +08:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2019-02-01 14:32:26.081 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2019-02-01 14:32:26.086 +08:00 [DBG] Start discovery request
+2019-02-01 14:32:26.155 +08:00 [DBG] Request path /.well-known/openid-configuration/jwks matched to endpoint type Discovery
+2019-02-01 14:32:26.157 +08:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryKeyEndpoint
+2019-02-01 14:32:26.157 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2019-02-01 14:32:26.161 +08:00 [DBG] Start key discovery request
+2019-02-01 14:32:26.229 +08:00 [INF] Successfully validated the token.
+2019-02-01 14:32:33.804 +08:00 [INF] Successfully validated the token.
+2019-02-01 14:33:42.094 +08:00 [INF] AuthenticationScheme: Bearer was challenged.
+2019-02-01 14:33:57.009 +08:00 [INF] AuthenticationScheme: Bearer was challenged.
+2019-02-01 14:34:03.573 +08:00 [INF] AuthenticationScheme: Bearer was challenged.
+2019-02-01 14:34:46.097 +08:00 [INF] AuthenticationScheme: Bearer was challenged.
+2019-02-01 14:34:58.035 +08:00 [INF] AuthenticationScheme: Bearer was challenged.
+2019-02-01 14:36:15.266 +08:00 [INF] AuthenticationScheme: Bearer was challenged.
+2019-02-01 14:36:51.481 +08:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2019-02-01 14:36:51.518 +08:00 [INF] Using explicitly configured authentication scheme xc for IdentityServer
+2019-02-01 14:36:51.559 +08:00 [FTL] Application startup exception
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Microsoft.AspNetCore.Builder.IdentityServerApplicationBuilderExtensions.ValidateAsync(IServiceProvider services, ILogger logger) in C:\local\identity\server4\IdentityServer4\src\Configuration\IdentityServerApplicationBuilderExtensions.cs:line 103
+   at Microsoft.AspNetCore.Builder.IdentityServerApplicationBuilderExtensions.Validate(IApplicationBuilder app) in C:\local\identity\server4\IdentityServer4\src\Configuration\IdentityServerApplicationBuilderExtensions.cs:line 74
+   at Microsoft.AspNetCore.Builder.IdentityServerApplicationBuilderExtensions.UseIdentityServer(IApplicationBuilder app) in C:\local\identity\server4\IdentityServer4\src\Configuration\IdentityServerApplicationBuilderExtensions.cs:line 30
+   at IdentityServer.Startup.Configure(IApplicationBuilder app) in F:\OpenSource\IdentityServer4.Samples.Custom\Practice\05_Integration\src\IdentityServer\Startup.cs:line 69
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Hosting.ConventionBasedStartup.Configure(IApplicationBuilder app)
+   at Microsoft.AspNetCore.HostFilteringStartupFilter.<>c__DisplayClass0_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Hosting.Internal.AutoRequestServicesStartupFilter.<>c__DisplayClass0_0.<Configure>b__0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.BuildApplication()
+2019-02-01 14:37:09.011 +08:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2019-02-01 14:37:09.048 +08:00 [INF] Using explicitly configured authentication scheme xc for IdentityServer
+2019-02-01 14:37:09.087 +08:00 [FTL] Application startup exception
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Microsoft.AspNetCore.Builder.IdentityServerApplicationBuilderExtensions.ValidateAsync(IServiceProvider services, ILogger logger) in C:\local\identity\server4\IdentityServer4\src\Configuration\IdentityServerApplicationBuilderExtensions.cs:line 103
+   at Microsoft.AspNetCore.Builder.IdentityServerApplicationBuilderExtensions.Validate(IApplicationBuilder app) in C:\local\identity\server4\IdentityServer4\src\Configuration\IdentityServerApplicationBuilderExtensions.cs:line 74
+   at Microsoft.AspNetCore.Builder.IdentityServerApplicationBuilderExtensions.UseIdentityServer(IApplicationBuilder app) in C:\local\identity\server4\IdentityServer4\src\Configuration\IdentityServerApplicationBuilderExtensions.cs:line 30
+   at IdentityServer.Startup.Configure(IApplicationBuilder app) in F:\OpenSource\IdentityServer4.Samples.Custom\Practice\05_Integration\src\IdentityServer\Startup.cs:line 69
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Hosting.ConventionBasedStartup.Configure(IApplicationBuilder app)
+   at Microsoft.AspNetCore.HostFilteringStartupFilter.<>c__DisplayClass0_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Hosting.Internal.AutoRequestServicesStartupFilter.<>c__DisplayClass0_0.<Configure>b__0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.BuildApplication()
+2019-02-01 14:37:22.563 +08:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2019-02-01 14:37:22.601 +08:00 [INF] Using the default authentication scheme Bearer for IdentityServer
+2019-02-01 14:37:22.604 +08:00 [ERR] Authentication scheme Bearer is configured for IdentityServer, but it is not a scheme that supports signin (like cookies). Either configure the default authentication scheme with cookies or set the CookieAuthenticationScheme on the IdentityServerOptions.
+2019-02-01 14:37:22.606 +08:00 [DBG] Using Bearer as default ASP.NET Core scheme for authentication
+2019-02-01 14:37:22.607 +08:00 [DBG] Using Bearer as default ASP.NET Core scheme for sign-in
+2019-02-01 14:37:22.607 +08:00 [DBG] Using Bearer as default ASP.NET Core scheme for sign-out
+2019-02-01 14:37:22.608 +08:00 [DBG] Using Bearer as default ASP.NET Core scheme for challenge
+2019-02-01 14:37:22.609 +08:00 [DBG] Using Bearer as default ASP.NET Core scheme for forbid
+2019-02-01 14:37:26.029 +08:00 [DBG] Request path /connect/token matched to endpoint type Token
+2019-02-01 14:37:26.044 +08:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2019-02-01 14:37:26.045 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2019-02-01 14:37:26.054 +08:00 [DBG] Start token request.
+2019-02-01 14:37:26.060 +08:00 [DBG] Start client validation
+2019-02-01 14:37:26.066 +08:00 [DBG] Start parsing Basic Authentication secret
+2019-02-01 14:37:26.070 +08:00 [DBG] Start parsing for secret in post body
+2019-02-01 14:37:26.088 +08:00 [DBG] Parser found secret: PostBodySecretParser
+2019-02-01 14:37:26.089 +08:00 [DBG] Secret id found: ro.client
+2019-02-01 14:37:26.104 +08:00 [DBG] client configuration validation for client ro.client succeeded.
+2019-02-01 14:37:26.116 +08:00 [DBG] Secret validator success: HashedSharedSecretValidator
+2019-02-01 14:37:26.116 +08:00 [DBG] Client validation success
+2019-02-01 14:37:26.126 +08:00 [DBG] Start token request validation
+2019-02-01 14:37:26.139 +08:00 [DBG] Start resource owner password token request validation
+2019-02-01 14:37:26.174 +08:00 [DBG] IsActive called from: ResourceOwnerValidation
+2019-02-01 14:37:26.178 +08:00 [DBG] Resource owner password token request validation success.
+2019-02-01 14:37:26.189 +08:00 [INF] Token request validation success
+{"ClientId":"ro.client","ClientName":null,"GrantType":"password","Scopes":"api1","AuthorizationCode":null,"RefreshToken":null,"UserName":"bob","AuthenticationContextReferenceClasses":null,"Tenant":null,"IdP":null,"Raw":{"grant_type":"password","client_id":"ro.client","client_secret":"***REDACTED***","username":"bob","password":"***REDACTED***"},"$type":"TokenRequestValidationLog"}
+2019-02-01 14:37:26.226 +08:00 [DBG] Getting claims for access token for client: ro.client
+2019-02-01 14:37:26.227 +08:00 [DBG] Getting claims for access token for subject: 2
+2019-02-01 14:37:26.233 +08:00 [DBG] Get profile called for subject 2 from client ro.client with claim types [] via ClaimsProviderAccessToken
+2019-02-01 14:37:26.240 +08:00 [DBG] Issued claims: []
+2019-02-01 14:37:26.310 +08:00 [DBG] Token request success.
+2019-02-01 14:37:40.275 +08:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2019-02-01 14:37:40.282 +08:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2019-02-01 14:37:40.283 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2019-02-01 14:37:40.288 +08:00 [DBG] Start discovery request
+2019-02-01 14:37:40.349 +08:00 [DBG] Request path /.well-known/openid-configuration/jwks matched to endpoint type Discovery
+2019-02-01 14:37:40.352 +08:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryKeyEndpoint
+2019-02-01 14:37:40.353 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2019-02-01 14:37:40.357 +08:00 [DBG] Start key discovery request
+2019-02-01 14:37:40.418 +08:00 [INF] Successfully validated the token.
+2019-02-01 14:38:43.532 +08:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2019-02-01 14:38:43.574 +08:00 [INF] Using explicitly configured authentication scheme Bearer for IdentityServer
+2019-02-01 14:38:43.578 +08:00 [ERR] Authentication scheme Bearer is configured for IdentityServer, but it is not a scheme that supports signin (like cookies). Either configure the default authentication scheme with cookies or set the CookieAuthenticationScheme on the IdentityServerOptions.
+2019-02-01 14:38:43.580 +08:00 [DBG] Using Bearer as default ASP.NET Core scheme for authentication
+2019-02-01 14:38:43.580 +08:00 [DBG] Using Bearer as default ASP.NET Core scheme for sign-in
+2019-02-01 14:38:43.581 +08:00 [DBG] Using Bearer as default ASP.NET Core scheme for sign-out
+2019-02-01 14:38:43.582 +08:00 [DBG] Using Bearer as default ASP.NET Core scheme for challenge
+2019-02-01 14:38:43.583 +08:00 [DBG] Using Bearer as default ASP.NET Core scheme for forbid
+2019-02-01 14:38:55.777 +08:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2019-02-01 14:38:55.814 +08:00 [INF] Using explicitly configured authentication scheme xc for IdentityServer
+2019-02-01 14:38:55.853 +08:00 [FTL] Application startup exception
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Microsoft.AspNetCore.Builder.IdentityServerApplicationBuilderExtensions.ValidateAsync(IServiceProvider services, ILogger logger) in C:\local\identity\server4\IdentityServer4\src\Configuration\IdentityServerApplicationBuilderExtensions.cs:line 103
+   at Microsoft.AspNetCore.Builder.IdentityServerApplicationBuilderExtensions.Validate(IApplicationBuilder app) in C:\local\identity\server4\IdentityServer4\src\Configuration\IdentityServerApplicationBuilderExtensions.cs:line 74
+   at Microsoft.AspNetCore.Builder.IdentityServerApplicationBuilderExtensions.UseIdentityServer(IApplicationBuilder app) in C:\local\identity\server4\IdentityServer4\src\Configuration\IdentityServerApplicationBuilderExtensions.cs:line 30
+   at IdentityServer.Startup.Configure(IApplicationBuilder app) in F:\OpenSource\IdentityServer4.Samples.Custom\Practice\05_Integration\src\IdentityServer\Startup.cs:line 69
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Hosting.ConventionBasedStartup.Configure(IApplicationBuilder app)
+   at Microsoft.AspNetCore.HostFilteringStartupFilter.<>c__DisplayClass0_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Hosting.Internal.AutoRequestServicesStartupFilter.<>c__DisplayClass0_0.<Configure>b__0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.BuildApplication()
+2019-02-01 14:42:25.001 +08:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2019-02-01 14:42:25.040 +08:00 [INF] Using the default authentication scheme idsrv for IdentityServer
+2019-02-01 14:42:25.045 +08:00 [DBG] Using idsrv as default ASP.NET Core scheme for authentication
+2019-02-01 14:42:25.046 +08:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-in
+2019-02-01 14:42:25.047 +08:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-out
+2019-02-01 14:42:25.047 +08:00 [DBG] Using idsrv as default ASP.NET Core scheme for challenge
+2019-02-01 14:42:25.048 +08:00 [DBG] Using idsrv as default ASP.NET Core scheme for forbid
+2019-02-01 14:42:31.885 +08:00 [DBG] Login Url: /Account/Login
+2019-02-01 14:42:31.887 +08:00 [DBG] Login Return Url Parameter: ReturnUrl
+2019-02-01 14:42:31.888 +08:00 [DBG] Logout Url: /Account/Logout
+2019-02-01 14:42:31.889 +08:00 [DBG] ConsentUrl Url: /consent
+2019-02-01 14:42:31.889 +08:00 [DBG] Consent Return Url Parameter: returnUrl
+2019-02-01 14:42:31.890 +08:00 [DBG] Error Url: /home/error
+2019-02-01 14:42:31.891 +08:00 [DBG] Error Id Parameter: errorId
+2019-02-01 14:42:32.011 +08:00 [INF] AuthenticationScheme: idsrv was challenged.
+2019-02-01 14:42:35.782 +08:00 [INF] AuthenticationScheme: idsrv was challenged.
+2019-02-01 14:42:43.232 +08:00 [DBG] Request path /connect/token matched to endpoint type Token
+2019-02-01 14:42:43.248 +08:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2019-02-01 14:42:43.250 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2019-02-01 14:42:43.264 +08:00 [DBG] Start token request.
+2019-02-01 14:42:43.270 +08:00 [DBG] Start client validation
+2019-02-01 14:42:43.279 +08:00 [DBG] Start parsing Basic Authentication secret
+2019-02-01 14:42:43.282 +08:00 [DBG] Start parsing for secret in post body
+2019-02-01 14:42:43.297 +08:00 [DBG] Parser found secret: PostBodySecretParser
+2019-02-01 14:42:43.298 +08:00 [DBG] Secret id found: ro.client
+2019-02-01 14:42:43.312 +08:00 [DBG] client configuration validation for client ro.client succeeded.
+2019-02-01 14:42:43.320 +08:00 [DBG] Secret validator success: HashedSharedSecretValidator
+2019-02-01 14:42:43.320 +08:00 [DBG] Client validation success
+2019-02-01 14:42:43.331 +08:00 [DBG] Start token request validation
+2019-02-01 14:42:43.342 +08:00 [DBG] Start resource owner password token request validation
+2019-02-01 14:42:43.374 +08:00 [DBG] IsActive called from: ResourceOwnerValidation
+2019-02-01 14:42:43.376 +08:00 [DBG] Resource owner password token request validation success.
+2019-02-01 14:42:43.387 +08:00 [INF] Token request validation success
+{"ClientId":"ro.client","ClientName":null,"GrantType":"password","Scopes":"api1","AuthorizationCode":null,"RefreshToken":null,"UserName":"bob","AuthenticationContextReferenceClasses":null,"Tenant":null,"IdP":null,"Raw":{"grant_type":"password","client_id":"ro.client","client_secret":"***REDACTED***","username":"bob","password":"***REDACTED***"},"$type":"TokenRequestValidationLog"}
+2019-02-01 14:42:43.422 +08:00 [DBG] Getting claims for access token for client: ro.client
+2019-02-01 14:42:43.423 +08:00 [DBG] Getting claims for access token for subject: 2
+2019-02-01 14:42:43.430 +08:00 [DBG] Get profile called for subject 2 from client ro.client with claim types [] via ClaimsProviderAccessToken
+2019-02-01 14:42:43.433 +08:00 [DBG] Issued claims: []
+2019-02-01 14:42:43.514 +08:00 [DBG] Token request success.
+2019-02-01 14:42:49.742 +08:00 [INF] AuthenticationScheme: idsrv was challenged.
+2019-02-01 14:43:00.125 +08:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2019-02-01 14:43:00.163 +08:00 [INF] Using the default authentication scheme idsrv for IdentityServer
+2019-02-01 14:43:00.166 +08:00 [DBG] Using idsrv as default ASP.NET Core scheme for authentication
+2019-02-01 14:43:00.166 +08:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-in
+2019-02-01 14:43:00.167 +08:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-out
+2019-02-01 14:43:00.168 +08:00 [DBG] Using idsrv as default ASP.NET Core scheme for challenge
+2019-02-01 14:43:00.169 +08:00 [DBG] Using idsrv as default ASP.NET Core scheme for forbid
+2019-02-01 14:43:04.693 +08:00 [DBG] Login Url: /Account/Login
+2019-02-01 14:43:04.695 +08:00 [DBG] Login Return Url Parameter: ReturnUrl
+2019-02-01 14:43:04.696 +08:00 [DBG] Logout Url: /Account/Logout
+2019-02-01 14:43:04.697 +08:00 [DBG] ConsentUrl Url: /consent
+2019-02-01 14:43:04.697 +08:00 [DBG] Consent Return Url Parameter: returnUrl
+2019-02-01 14:43:04.698 +08:00 [DBG] Error Url: /home/error
+2019-02-01 14:43:04.698 +08:00 [DBG] Error Id Parameter: errorId
+2019-02-01 14:43:04.813 +08:00 [INF] AuthenticationScheme: idsrv was challenged.
+2019-02-01 14:43:06.313 +08:00 [INF] AuthenticationScheme: idsrv was challenged.
+2019-02-01 14:43:07.419 +08:00 [INF] AuthenticationScheme: idsrv was challenged.
+2019-02-01 14:43:08.334 +08:00 [INF] AuthenticationScheme: idsrv was challenged.
+2019-02-01 14:43:10.466 +08:00 [DBG] Request path /connect/token matched to endpoint type Token
+2019-02-01 14:43:10.480 +08:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2019-02-01 14:43:10.481 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2019-02-01 14:43:10.489 +08:00 [DBG] Start token request.
+2019-02-01 14:43:10.499 +08:00 [DBG] Start client validation
+2019-02-01 14:43:10.504 +08:00 [DBG] Start parsing Basic Authentication secret
+2019-02-01 14:43:10.510 +08:00 [DBG] Start parsing for secret in post body
+2019-02-01 14:43:10.526 +08:00 [DBG] Parser found secret: PostBodySecretParser
+2019-02-01 14:43:10.527 +08:00 [DBG] Secret id found: ro.client
+2019-02-01 14:43:10.540 +08:00 [DBG] client configuration validation for client ro.client succeeded.
+2019-02-01 14:43:10.549 +08:00 [DBG] Secret validator success: HashedSharedSecretValidator
+2019-02-01 14:43:10.549 +08:00 [DBG] Client validation success
+2019-02-01 14:43:10.561 +08:00 [DBG] Start token request validation
+2019-02-01 14:43:10.572 +08:00 [DBG] Start resource owner password token request validation
+2019-02-01 14:43:10.607 +08:00 [DBG] IsActive called from: ResourceOwnerValidation
+2019-02-01 14:43:10.608 +08:00 [DBG] Resource owner password token request validation success.
+2019-02-01 14:43:10.620 +08:00 [INF] Token request validation success
+{"ClientId":"ro.client","ClientName":null,"GrantType":"password","Scopes":"api1","AuthorizationCode":null,"RefreshToken":null,"UserName":"bob","AuthenticationContextReferenceClasses":null,"Tenant":null,"IdP":null,"Raw":{"grant_type":"password","client_id":"ro.client","client_secret":"***REDACTED***","username":"bob","password":"***REDACTED***"},"$type":"TokenRequestValidationLog"}
+2019-02-01 14:43:10.656 +08:00 [DBG] Getting claims for access token for client: ro.client
+2019-02-01 14:43:10.656 +08:00 [DBG] Getting claims for access token for subject: 2
+2019-02-01 14:43:10.664 +08:00 [DBG] Get profile called for subject 2 from client ro.client with claim types [] via ClaimsProviderAccessToken
+2019-02-01 14:43:10.667 +08:00 [DBG] Issued claims: []
+2019-02-01 14:43:10.736 +08:00 [DBG] Token request success.
+2019-02-01 14:43:14.111 +08:00 [INF] AuthenticationScheme: idsrv was challenged.
+2019-02-01 14:43:29.347 +08:00 [INF] AuthenticationScheme: idsrv was challenged.
+2019-02-01 14:43:35.140 +08:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2019-02-01 14:43:35.180 +08:00 [INF] Using the default authentication scheme Bearer for IdentityServer
+2019-02-01 14:43:35.183 +08:00 [ERR] Authentication scheme Bearer is configured for IdentityServer, but it is not a scheme that supports signin (like cookies). Either configure the default authentication scheme with cookies or set the CookieAuthenticationScheme on the IdentityServerOptions.
+2019-02-01 14:43:35.185 +08:00 [DBG] Using Bearer as default ASP.NET Core scheme for authentication
+2019-02-01 14:43:35.185 +08:00 [DBG] Using Bearer as default ASP.NET Core scheme for sign-in
+2019-02-01 14:43:35.186 +08:00 [DBG] Using Bearer as default ASP.NET Core scheme for sign-out
+2019-02-01 14:43:35.187 +08:00 [DBG] Using Bearer as default ASP.NET Core scheme for challenge
+2019-02-01 14:43:35.187 +08:00 [DBG] Using Bearer as default ASP.NET Core scheme for forbid
+2019-02-01 14:43:37.656 +08:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2019-02-01 14:43:37.663 +08:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2019-02-01 14:43:37.664 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2019-02-01 14:43:37.668 +08:00 [DBG] Start discovery request
+2019-02-01 14:43:37.756 +08:00 [DBG] Request path /.well-known/openid-configuration/jwks matched to endpoint type Discovery
+2019-02-01 14:43:37.760 +08:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryKeyEndpoint
+2019-02-01 14:43:37.761 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2019-02-01 14:43:37.765 +08:00 [DBG] Start key discovery request
+2019-02-01 14:43:37.858 +08:00 [INF] Successfully validated the token.
+2019-02-01 14:45:04.328 +08:00 [INF] Successfully validated the token.
+2019-02-01 14:45:09.214 +08:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2019-02-01 14:45:09.252 +08:00 [INF] Using explicitly configured authentication scheme xc for IdentityServer
+2019-02-01 14:45:09.291 +08:00 [FTL] Application startup exception
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Microsoft.AspNetCore.Builder.IdentityServerApplicationBuilderExtensions.ValidateAsync(IServiceProvider services, ILogger logger) in C:\local\identity\server4\IdentityServer4\src\Configuration\IdentityServerApplicationBuilderExtensions.cs:line 103
+   at Microsoft.AspNetCore.Builder.IdentityServerApplicationBuilderExtensions.Validate(IApplicationBuilder app) in C:\local\identity\server4\IdentityServer4\src\Configuration\IdentityServerApplicationBuilderExtensions.cs:line 74
+   at Microsoft.AspNetCore.Builder.IdentityServerApplicationBuilderExtensions.UseIdentityServer(IApplicationBuilder app) in C:\local\identity\server4\IdentityServer4\src\Configuration\IdentityServerApplicationBuilderExtensions.cs:line 30
+   at IdentityServer.Startup.Configure(IApplicationBuilder app) in F:\OpenSource\IdentityServer4.Samples.Custom\Practice\05_Integration\src\IdentityServer\Startup.cs:line 69
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Hosting.ConventionBasedStartup.Configure(IApplicationBuilder app)
+   at Microsoft.AspNetCore.HostFilteringStartupFilter.<>c__DisplayClass0_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Hosting.Internal.AutoRequestServicesStartupFilter.<>c__DisplayClass0_0.<Configure>b__0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.BuildApplication()
+2019-02-01 14:45:36.414 +08:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2019-02-01 14:45:36.452 +08:00 [INF] Using explicitly configured authentication scheme xc for IdentityServer
+2019-02-01 14:45:36.456 +08:00 [ERR] Authentication scheme xc is configured for IdentityServer, but it is not a scheme that supports signin (like cookies). Either configure the default authentication scheme with cookies or set the CookieAuthenticationScheme on the IdentityServerOptions.
+2019-02-01 14:45:36.460 +08:00 [DBG] Using null as default ASP.NET Core scheme for authentication
+2019-02-01 14:45:36.465 +08:00 [DBG] Using null as default ASP.NET Core scheme for sign-in
+2019-02-01 14:45:36.466 +08:00 [DBG] Using null as default ASP.NET Core scheme for sign-out
+2019-02-01 14:45:36.467 +08:00 [DBG] Using null as default ASP.NET Core scheme for challenge
+2019-02-01 14:45:36.467 +08:00 [DBG] Using null as default ASP.NET Core scheme for forbid
+2019-02-01 14:46:37.294 +08:00 [DBG] Request path /connect/token matched to endpoint type Token
+2019-02-01 14:46:37.304 +08:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2019-02-01 14:46:37.305 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2019-02-01 14:46:37.312 +08:00 [DBG] Start token request.
+2019-02-01 14:46:37.319 +08:00 [DBG] Start client validation
+2019-02-01 14:46:37.324 +08:00 [DBG] Start parsing Basic Authentication secret
+2019-02-01 14:46:37.328 +08:00 [DBG] Start parsing for secret in post body
+2019-02-01 14:46:37.343 +08:00 [DBG] Parser found secret: PostBodySecretParser
+2019-02-01 14:46:37.344 +08:00 [DBG] Secret id found: ro.client
+2019-02-01 14:46:37.356 +08:00 [DBG] client configuration validation for client ro.client succeeded.
+2019-02-01 14:46:37.364 +08:00 [DBG] Secret validator success: HashedSharedSecretValidator
+2019-02-01 14:46:37.365 +08:00 [DBG] Client validation success
+2019-02-01 14:46:37.376 +08:00 [DBG] Start token request validation
+2019-02-01 14:46:37.388 +08:00 [DBG] Start resource owner password token request validation
+2019-02-01 14:46:37.420 +08:00 [DBG] IsActive called from: ResourceOwnerValidation
+2019-02-01 14:46:37.421 +08:00 [DBG] Resource owner password token request validation success.
+2019-02-01 14:46:37.439 +08:00 [INF] Token request validation success
+{"ClientId":"ro.client","ClientName":null,"GrantType":"password","Scopes":"api1","AuthorizationCode":null,"RefreshToken":null,"UserName":"bob","AuthenticationContextReferenceClasses":null,"Tenant":null,"IdP":null,"Raw":{"grant_type":"password","client_id":"ro.client","client_secret":"***REDACTED***","username":"bob","password":"***REDACTED***"},"$type":"TokenRequestValidationLog"}
+2019-02-01 14:46:37.472 +08:00 [DBG] Getting claims for access token for client: ro.client
+2019-02-01 14:46:37.472 +08:00 [DBG] Getting claims for access token for subject: 2
+2019-02-01 14:46:37.481 +08:00 [DBG] Get profile called for subject 2 from client ro.client with claim types [] via ClaimsProviderAccessToken
+2019-02-01 14:46:37.484 +08:00 [DBG] Issued claims: []
+2019-02-01 14:46:37.560 +08:00 [DBG] Token request success.
+2019-02-01 14:46:39.584 +08:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2019-02-01 14:46:39.594 +08:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2019-02-01 14:46:39.596 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2019-02-01 14:46:39.600 +08:00 [DBG] Start discovery request
+2019-02-01 14:46:39.663 +08:00 [DBG] Request path /.well-known/openid-configuration/jwks matched to endpoint type Discovery
+2019-02-01 14:46:39.666 +08:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryKeyEndpoint
+2019-02-01 14:46:39.667 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2019-02-01 14:46:39.671 +08:00 [DBG] Start key discovery request
+2019-02-01 14:46:39.736 +08:00 [INF] Successfully validated the token.
+2019-02-01 14:46:39.844 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No authenticationScheme was specified, and there was no DefaultChallengeScheme found.
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Mvc.ChallengeResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeResultAsync(IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAlwaysRunResultFilters()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at IdentityServer4.Hosting.IdentityServerMiddleware.Invoke(HttpContext context, IEndpointRouter router, IUserSession session, IEventService events) in C:\local\identity\server4\IdentityServer4\src\Hosting\IdentityServerMiddleware.cs:line 72
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.Invoke(HttpContext context)
+   at IdentityServer4.Hosting.BaseUrlMiddleware.Invoke(HttpContext context) in C:\local\identity\server4\IdentityServer4\src\Hosting\BaseUrlMiddleware.cs:line 36
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2019-02-01 14:47:08.094 +08:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2019-02-01 14:47:08.135 +08:00 [INF] Using the default authentication scheme idsrv for IdentityServer
+2019-02-01 14:47:08.138 +08:00 [DBG] Using idsrv as default ASP.NET Core scheme for authentication
+2019-02-01 14:47:08.139 +08:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-in
+2019-02-01 14:47:08.140 +08:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-out
+2019-02-01 14:47:08.140 +08:00 [DBG] Using idsrv as default ASP.NET Core scheme for challenge
+2019-02-01 14:47:08.141 +08:00 [DBG] Using idsrv as default ASP.NET Core scheme for forbid
+2019-02-01 14:47:09.830 +08:00 [DBG] Login Url: /Account/Login
+2019-02-01 14:47:09.833 +08:00 [DBG] Login Return Url Parameter: ReturnUrl
+2019-02-01 14:47:09.835 +08:00 [DBG] Logout Url: /Account/Logout
+2019-02-01 14:47:09.836 +08:00 [DBG] ConsentUrl Url: /consent
+2019-02-01 14:47:09.836 +08:00 [DBG] Consent Return Url Parameter: returnUrl
+2019-02-01 14:47:09.837 +08:00 [DBG] Error Url: /home/error
+2019-02-01 14:47:09.837 +08:00 [DBG] Error Id Parameter: errorId
+2019-02-01 14:47:09.949 +08:00 [INF] AuthenticationScheme: idsrv was challenged.
+2019-02-01 14:47:43.228 +08:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2019-02-01 14:47:43.268 +08:00 [INF] Using explicitly configured authentication scheme xc for IdentityServer
+2019-02-01 14:47:43.271 +08:00 [DBG] Using Bearer as default ASP.NET Core scheme for authentication
+2019-02-01 14:47:43.273 +08:00 [DBG] Using Bearer as default ASP.NET Core scheme for sign-in
+2019-02-01 14:47:43.276 +08:00 [DBG] Using Bearer as default ASP.NET Core scheme for sign-out
+2019-02-01 14:47:43.276 +08:00 [DBG] Using Bearer as default ASP.NET Core scheme for challenge
+2019-02-01 14:47:43.278 +08:00 [DBG] Using Bearer as default ASP.NET Core scheme for forbid
+2019-02-01 14:47:47.820 +08:00 [DBG] Login Url: /Account/Login
+2019-02-01 14:47:47.825 +08:00 [DBG] Login Return Url Parameter: ReturnUrl
+2019-02-01 14:47:47.827 +08:00 [DBG] Logout Url: /Account/Logout
+2019-02-01 14:47:47.827 +08:00 [DBG] ConsentUrl Url: /consent
+2019-02-01 14:47:47.828 +08:00 [DBG] Consent Return Url Parameter: returnUrl
+2019-02-01 14:47:47.828 +08:00 [DBG] Error Url: /home/error
+2019-02-01 14:47:47.829 +08:00 [DBG] Error Id Parameter: errorId
+2019-02-01 14:47:47.837 +08:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2019-02-01 14:47:47.843 +08:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2019-02-01 14:47:47.845 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2019-02-01 14:47:47.852 +08:00 [DBG] Start discovery request
+2019-02-01 14:47:47.941 +08:00 [DBG] Request path /.well-known/openid-configuration/jwks matched to endpoint type Discovery
+2019-02-01 14:47:47.946 +08:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryKeyEndpoint
+2019-02-01 14:47:47.946 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2019-02-01 14:47:47.952 +08:00 [DBG] Start key discovery request
+2019-02-01 14:47:48.059 +08:00 [INF] Successfully validated the token.
+2019-02-01 14:53:39.654 +08:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2019-02-01 14:53:39.693 +08:00 [INF] Using the default authentication scheme Bearer for IdentityServer
+2019-02-01 14:53:39.698 +08:00 [ERR] Authentication scheme Bearer is configured for IdentityServer, but it is not a scheme that supports signin (like cookies). Either configure the default authentication scheme with cookies or set the CookieAuthenticationScheme on the IdentityServerOptions.
+2019-02-01 14:53:39.699 +08:00 [DBG] Using Bearer as default ASP.NET Core scheme for authentication
+2019-02-01 14:53:39.700 +08:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-in
+2019-02-01 14:53:39.700 +08:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-out
+2019-02-01 14:53:39.701 +08:00 [DBG] Using Bearer as default ASP.NET Core scheme for challenge
+2019-02-01 14:53:39.701 +08:00 [DBG] Using Bearer as default ASP.NET Core scheme for forbid
+2019-02-01 14:54:30.713 +08:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2019-02-01 14:54:30.751 +08:00 [INF] Using explicitly configured authentication scheme xc for IdentityServer
+2019-02-01 14:54:30.754 +08:00 [DBG] Using Bearer as default ASP.NET Core scheme for authentication
+2019-02-01 14:54:30.756 +08:00 [DBG] Using Bearer as default ASP.NET Core scheme for sign-in
+2019-02-01 14:54:30.759 +08:00 [DBG] Using Bearer as default ASP.NET Core scheme for sign-out
+2019-02-01 14:54:30.760 +08:00 [DBG] Using Bearer as default ASP.NET Core scheme for challenge
+2019-02-01 14:54:30.761 +08:00 [DBG] Using Bearer as default ASP.NET Core scheme for forbid
+2019-02-01 14:57:55.828 +08:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2019-02-01 14:57:55.864 +08:00 [INF] Using explicitly configured authentication scheme xc for IdentityServer
+2019-02-01 14:57:55.867 +08:00 [DBG] Using Bearer as default ASP.NET Core scheme for authentication
+2019-02-01 14:57:55.868 +08:00 [DBG] Using Bearer as default ASP.NET Core scheme for sign-in
+2019-02-01 14:57:55.869 +08:00 [DBG] Using Bearer as default ASP.NET Core scheme for sign-out
+2019-02-01 14:57:55.870 +08:00 [DBG] Using Bearer as default ASP.NET Core scheme for challenge
+2019-02-01 14:57:55.870 +08:00 [DBG] Using Bearer as default ASP.NET Core scheme for forbid
+2019-02-01 14:57:58.761 +08:00 [DBG] Login Url: /Account/Login
+2019-02-01 14:57:58.763 +08:00 [DBG] Login Return Url Parameter: ReturnUrl
+2019-02-01 14:57:58.765 +08:00 [DBG] Logout Url: /Account/Logout
+2019-02-01 14:57:58.766 +08:00 [DBG] ConsentUrl Url: /consent
+2019-02-01 14:57:58.767 +08:00 [DBG] Consent Return Url Parameter: returnUrl
+2019-02-01 14:57:58.768 +08:00 [DBG] Error Url: /home/error
+2019-02-01 14:57:58.768 +08:00 [DBG] Error Id Parameter: errorId
+2019-02-01 14:57:58.778 +08:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2019-02-01 14:57:58.782 +08:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2019-02-01 14:57:58.783 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2019-02-01 14:57:58.789 +08:00 [DBG] Start discovery request
+2019-02-01 14:57:58.874 +08:00 [DBG] Request path /.well-known/openid-configuration/jwks matched to endpoint type Discovery
+2019-02-01 14:57:58.877 +08:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryKeyEndpoint
+2019-02-01 14:57:58.878 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2019-02-01 14:57:58.885 +08:00 [DBG] Start key discovery request
+2019-02-01 14:57:58.990 +08:00 [INF] Successfully validated the token.
+2019-02-01 15:23:09.045 +08:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2019-02-01 15:23:09.083 +08:00 [INF] Using explicitly configured authentication scheme Cookies for IdentityServer
+2019-02-01 15:23:09.087 +08:00 [DBG] Using Bearer as default ASP.NET Core scheme for authentication
+2019-02-01 15:23:09.088 +08:00 [DBG] Using Bearer as default ASP.NET Core scheme for sign-in
+2019-02-01 15:23:09.088 +08:00 [DBG] Using Bearer as default ASP.NET Core scheme for sign-out
+2019-02-01 15:23:09.088 +08:00 [DBG] Using Bearer as default ASP.NET Core scheme for challenge
+2019-02-01 15:23:09.088 +08:00 [DBG] Using Bearer as default ASP.NET Core scheme for forbid
+2019-02-01 15:23:10.745 +08:00 [DBG] Login Url: /Account/Login
+2019-02-01 15:23:10.747 +08:00 [DBG] Login Return Url Parameter: ReturnUrl
+2019-02-01 15:23:10.748 +08:00 [DBG] Logout Url: /Account/Logout
+2019-02-01 15:23:10.749 +08:00 [DBG] ConsentUrl Url: /consent
+2019-02-01 15:23:10.750 +08:00 [DBG] Consent Return Url Parameter: returnUrl
+2019-02-01 15:23:10.751 +08:00 [DBG] Error Url: /home/error
+2019-02-01 15:23:10.752 +08:00 [DBG] Error Id Parameter: errorId
+2019-02-01 15:23:10.762 +08:00 [DBG] Request path /connect/token matched to endpoint type Token
+2019-02-01 15:23:10.773 +08:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2019-02-01 15:23:10.774 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2019-02-01 15:23:10.782 +08:00 [DBG] Start token request.
+2019-02-01 15:23:10.790 +08:00 [DBG] Start client validation
+2019-02-01 15:23:10.795 +08:00 [DBG] Start parsing Basic Authentication secret
+2019-02-01 15:23:10.798 +08:00 [DBG] Start parsing for secret in post body
+2019-02-01 15:23:10.816 +08:00 [DBG] Parser found secret: PostBodySecretParser
+2019-02-01 15:23:10.816 +08:00 [DBG] Secret id found: ro.client
+2019-02-01 15:23:10.830 +08:00 [DBG] client configuration validation for client ro.client succeeded.
+2019-02-01 15:23:10.840 +08:00 [DBG] Secret validator success: HashedSharedSecretValidator
+2019-02-01 15:23:10.841 +08:00 [DBG] Client validation success
+2019-02-01 15:23:10.852 +08:00 [DBG] Start token request validation
+2019-02-01 15:23:10.863 +08:00 [DBG] Start resource owner password token request validation
+2019-02-01 15:23:10.899 +08:00 [DBG] IsActive called from: ResourceOwnerValidation
+2019-02-01 15:23:10.900 +08:00 [DBG] Resource owner password token request validation success.
+2019-02-01 15:23:10.913 +08:00 [INF] Token request validation success
+{"ClientId":"ro.client","ClientName":null,"GrantType":"password","Scopes":"api1","AuthorizationCode":null,"RefreshToken":null,"UserName":"bob","AuthenticationContextReferenceClasses":null,"Tenant":null,"IdP":null,"Raw":{"grant_type":"password","client_id":"ro.client","client_secret":"***REDACTED***","username":"bob","password":"***REDACTED***"},"$type":"TokenRequestValidationLog"}
+2019-02-01 15:23:10.951 +08:00 [DBG] Getting claims for access token for client: ro.client
+2019-02-01 15:23:10.952 +08:00 [DBG] Getting claims for access token for subject: 2
+2019-02-01 15:23:10.961 +08:00 [DBG] Get profile called for subject 2 from client ro.client with claim types [] via ClaimsProviderAccessToken
+2019-02-01 15:23:10.965 +08:00 [DBG] Issued claims: []
+2019-02-01 15:23:11.032 +08:00 [DBG] Token request success.
+2019-02-01 15:23:13.663 +08:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2019-02-01 15:23:13.669 +08:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2019-02-01 15:23:13.672 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2019-02-01 15:23:13.677 +08:00 [DBG] Start discovery request
+2019-02-01 15:23:13.739 +08:00 [DBG] Request path /.well-known/openid-configuration/jwks matched to endpoint type Discovery
+2019-02-01 15:23:13.741 +08:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryKeyEndpoint
+2019-02-01 15:23:13.742 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2019-02-01 15:23:13.746 +08:00 [DBG] Start key discovery request
+2019-02-01 15:23:13.811 +08:00 [INF] Successfully validated the token.
+2019-02-01 15:23:18.962 +08:00 [INF] AuthenticationScheme: Bearer was challenged.
+2019-02-01 15:23:23.084 +08:00 [INF] Successfully validated the token.
+2019-02-01 15:23:52.797 +08:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2019-02-01 15:23:52.838 +08:00 [INF] Using the default authentication scheme Bearer for IdentityServer
+2019-02-01 15:23:52.842 +08:00 [ERR] Authentication scheme Bearer is configured for IdentityServer, but it is not a scheme that supports signin (like cookies). Either configure the default authentication scheme with cookies or set the CookieAuthenticationScheme on the IdentityServerOptions.
+2019-02-01 15:23:52.842 +08:00 [DBG] Using Bearer as default ASP.NET Core scheme for authentication
+2019-02-01 15:23:52.843 +08:00 [DBG] Using Bearer as default ASP.NET Core scheme for sign-in
+2019-02-01 15:23:52.843 +08:00 [DBG] Using Bearer as default ASP.NET Core scheme for sign-out
+2019-02-01 15:23:52.844 +08:00 [DBG] Using Bearer as default ASP.NET Core scheme for challenge
+2019-02-01 15:23:52.844 +08:00 [DBG] Using Bearer as default ASP.NET Core scheme for forbid
+2019-02-01 15:24:23.184 +08:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2019-02-01 15:24:23.222 +08:00 [INF] Using explicitly configured authentication scheme Cookies for IdentityServer
+2019-02-01 15:24:23.229 +08:00 [DBG] Using Bearer as default ASP.NET Core scheme for authentication
+2019-02-01 15:24:23.229 +08:00 [DBG] Using Bearer as default ASP.NET Core scheme for sign-in
+2019-02-01 15:24:23.230 +08:00 [DBG] Using Bearer as default ASP.NET Core scheme for sign-out
+2019-02-01 15:24:23.231 +08:00 [DBG] Using Bearer as default ASP.NET Core scheme for challenge
+2019-02-01 15:24:23.231 +08:00 [DBG] Using Bearer as default ASP.NET Core scheme for forbid
+2019-02-01 15:24:44.512 +08:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2019-02-01 15:24:44.552 +08:00 [INF] Using explicitly configured authentication scheme Bearer for IdentityServer
+2019-02-01 15:24:44.556 +08:00 [ERR] Authentication scheme Bearer is configured for IdentityServer, but it is not a scheme that supports signin (like cookies). Either configure the default authentication scheme with cookies or set the CookieAuthenticationScheme on the IdentityServerOptions.
+2019-02-01 15:24:44.559 +08:00 [DBG] Using Bearer as default ASP.NET Core scheme for authentication
+2019-02-01 15:24:44.560 +08:00 [DBG] Using Bearer as default ASP.NET Core scheme for sign-in
+2019-02-01 15:24:44.560 +08:00 [DBG] Using Bearer as default ASP.NET Core scheme for sign-out
+2019-02-01 15:24:44.563 +08:00 [DBG] Using Bearer as default ASP.NET Core scheme for challenge
+2019-02-01 15:24:44.564 +08:00 [DBG] Using Bearer as default ASP.NET Core scheme for forbid
+2019-02-01 15:25:08.266 +08:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2019-02-01 15:25:08.306 +08:00 [INF] Using explicitly configured authentication scheme Cookies for IdentityServer
+2019-02-01 15:25:08.309 +08:00 [DBG] Using Bearer as default ASP.NET Core scheme for authentication
+2019-02-01 15:25:08.311 +08:00 [DBG] Using Bearer as default ASP.NET Core scheme for sign-in
+2019-02-01 15:25:08.311 +08:00 [DBG] Using Bearer as default ASP.NET Core scheme for sign-out
+2019-02-01 15:25:08.312 +08:00 [DBG] Using Bearer as default ASP.NET Core scheme for challenge
+2019-02-01 15:25:08.313 +08:00 [DBG] Using Bearer as default ASP.NET Core scheme for forbid
+2019-02-01 15:25:24.195 +08:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2019-02-01 15:25:24.232 +08:00 [INF] Using the default authentication scheme Bearer for IdentityServer
+2019-02-01 15:25:24.236 +08:00 [ERR] Authentication scheme Bearer is configured for IdentityServer, but it is not a scheme that supports signin (like cookies). Either configure the default authentication scheme with cookies or set the CookieAuthenticationScheme on the IdentityServerOptions.
+2019-02-01 15:25:24.237 +08:00 [DBG] Using Bearer as default ASP.NET Core scheme for authentication
+2019-02-01 15:25:24.238 +08:00 [DBG] Using Bearer as default ASP.NET Core scheme for sign-in
+2019-02-01 15:25:24.238 +08:00 [DBG] Using Bearer as default ASP.NET Core scheme for sign-out
+2019-02-01 15:25:24.240 +08:00 [DBG] Using Bearer as default ASP.NET Core scheme for challenge
+2019-02-01 15:25:24.241 +08:00 [DBG] Using Bearer as default ASP.NET Core scheme for forbid
+2019-02-01 15:25:32.997 +08:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2019-02-01 15:25:33.038 +08:00 [INF] Using explicitly configured authentication scheme Cookies for IdentityServer
+2019-02-01 15:25:33.044 +08:00 [DBG] Using Bearer as default ASP.NET Core scheme for authentication
+2019-02-01 15:25:33.045 +08:00 [DBG] Using Bearer as default ASP.NET Core scheme for sign-in
+2019-02-01 15:25:33.046 +08:00 [DBG] Using Bearer as default ASP.NET Core scheme for sign-out
+2019-02-01 15:25:33.047 +08:00 [DBG] Using Bearer as default ASP.NET Core scheme for challenge
+2019-02-01 15:25:33.048 +08:00 [DBG] Using Bearer as default ASP.NET Core scheme for forbid
+2019-02-01 15:25:39.322 +08:00 [DBG] Login Url: /Account/Login
+2019-02-01 15:25:39.324 +08:00 [DBG] Login Return Url Parameter: ReturnUrl
+2019-02-01 15:25:39.326 +08:00 [DBG] Logout Url: /Account/Logout
+2019-02-01 15:25:39.327 +08:00 [DBG] ConsentUrl Url: /consent
+2019-02-01 15:25:39.327 +08:00 [DBG] Consent Return Url Parameter: returnUrl
+2019-02-01 15:25:39.327 +08:00 [DBG] Error Url: /home/error
+2019-02-01 15:25:39.328 +08:00 [DBG] Error Id Parameter: errorId
+2019-02-01 15:25:39.335 +08:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2019-02-01 15:25:39.341 +08:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2019-02-01 15:25:39.343 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2019-02-01 15:25:39.346 +08:00 [DBG] Start discovery request
+2019-02-01 15:25:39.427 +08:00 [DBG] Request path /.well-known/openid-configuration/jwks matched to endpoint type Discovery
+2019-02-01 15:25:39.429 +08:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryKeyEndpoint
+2019-02-01 15:25:39.431 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2019-02-01 15:25:39.434 +08:00 [DBG] Start key discovery request
+2019-02-01 15:25:39.527 +08:00 [INF] Successfully validated the token.
+2019-02-01 15:27:35.479 +08:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2019-02-01 15:27:35.521 +08:00 [INF] Using explicitly configured authentication scheme Cookies for IdentityServer
+2019-02-01 15:27:35.525 +08:00 [DBG] Using Bearer as default ASP.NET Core scheme for authentication
+2019-02-01 15:27:35.526 +08:00 [DBG] Using Bearer as default ASP.NET Core scheme for sign-in
+2019-02-01 15:27:35.527 +08:00 [DBG] Using Bearer as default ASP.NET Core scheme for sign-out
+2019-02-01 15:27:35.528 +08:00 [DBG] Using Bearer as default ASP.NET Core scheme for challenge
+2019-02-01 15:27:35.528 +08:00 [DBG] Using Bearer as default ASP.NET Core scheme for forbid
+2019-02-01 15:27:48.833 +08:00 [DBG] Login Url: /Account/Login
+2019-02-01 15:27:48.835 +08:00 [DBG] Login Return Url Parameter: ReturnUrl
+2019-02-01 15:27:48.837 +08:00 [DBG] Logout Url: /Account/Logout
+2019-02-01 15:27:48.838 +08:00 [DBG] ConsentUrl Url: /consent
+2019-02-01 15:27:48.839 +08:00 [DBG] Consent Return Url Parameter: returnUrl
+2019-02-01 15:27:48.839 +08:00 [DBG] Error Url: /home/error
+2019-02-01 15:27:48.840 +08:00 [DBG] Error Id Parameter: errorId
+2019-02-01 15:27:48.848 +08:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2019-02-01 15:27:48.853 +08:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2019-02-01 15:27:48.854 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2019-02-01 15:27:48.858 +08:00 [DBG] Start discovery request
+2019-02-01 15:27:48.994 +08:00 [DBG] Request path /.well-known/openid-configuration/jwks matched to endpoint type Discovery
+2019-02-01 15:27:49.000 +08:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryKeyEndpoint
+2019-02-01 15:27:49.001 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2019-02-01 15:27:49.008 +08:00 [DBG] Start key discovery request
+2019-02-01 15:31:03.626 +08:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2019-02-01 15:31:03.665 +08:00 [INF] Using explicitly configured authentication scheme Cookies for IdentityServer
+2019-02-01 15:31:03.669 +08:00 [DBG] Using idsrv as default ASP.NET Core scheme for authentication
+2019-02-01 15:31:03.674 +08:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-in
+2019-02-01 15:31:03.674 +08:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-out
+2019-02-01 15:31:03.677 +08:00 [DBG] Using idsrv as default ASP.NET Core scheme for challenge
+2019-02-01 15:31:03.679 +08:00 [DBG] Using idsrv as default ASP.NET Core scheme for forbid
+2019-02-01 15:31:12.275 +08:00 [DBG] Login Url: /Account/Login
+2019-02-01 15:31:12.277 +08:00 [DBG] Login Return Url Parameter: ReturnUrl
+2019-02-01 15:31:12.279 +08:00 [DBG] Logout Url: /Account/Logout
+2019-02-01 15:31:12.279 +08:00 [DBG] ConsentUrl Url: /consent
+2019-02-01 15:31:12.280 +08:00 [DBG] Consent Return Url Parameter: returnUrl
+2019-02-01 15:31:12.281 +08:00 [DBG] Error Url: /home/error
+2019-02-01 15:31:12.282 +08:00 [DBG] Error Id Parameter: errorId
+2019-02-01 15:31:12.381 +08:00 [INF] AuthenticationScheme: idsrv was challenged.
+2019-02-01 15:40:33.154 +08:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2019-02-01 15:40:33.189 +08:00 [INF] Using explicitly configured authentication scheme Cookies for IdentityServer
+2019-02-01 15:40:33.191 +08:00 [DBG] Using Bearer as default ASP.NET Core scheme for authentication
+2019-02-01 15:40:33.192 +08:00 [DBG] Using Bearer as default ASP.NET Core scheme for sign-in
+2019-02-01 15:40:33.192 +08:00 [DBG] Using Bearer as default ASP.NET Core scheme for sign-out
+2019-02-01 15:40:33.192 +08:00 [DBG] Using Bearer as default ASP.NET Core scheme for challenge
+2019-02-01 15:40:33.192 +08:00 [DBG] Using Bearer as default ASP.NET Core scheme for forbid
+2019-02-01 15:40:57.453 +08:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2019-02-01 15:40:57.491 +08:00 [INF] Using the default authentication scheme Bearer for IdentityServer
+2019-02-01 15:40:57.498 +08:00 [ERR] Authentication scheme Bearer is configured for IdentityServer, but it is not a scheme that supports signin (like cookies). Either configure the default authentication scheme with cookies or set the CookieAuthenticationScheme on the IdentityServerOptions.
+2019-02-01 15:40:57.499 +08:00 [DBG] Using Bearer as default ASP.NET Core scheme for authentication
+2019-02-01 15:40:57.499 +08:00 [DBG] Using Bearer as default ASP.NET Core scheme for sign-in
+2019-02-01 15:40:57.500 +08:00 [DBG] Using Bearer as default ASP.NET Core scheme for sign-out
+2019-02-01 15:40:57.500 +08:00 [DBG] Using Bearer as default ASP.NET Core scheme for challenge
+2019-02-01 15:40:57.502 +08:00 [DBG] Using Bearer as default ASP.NET Core scheme for forbid
+2019-02-01 15:44:51.980 +08:00 [DBG] Request path /connect/token matched to endpoint type Token
+2019-02-01 15:44:54.600 +08:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2019-02-01 15:44:54.605 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2019-02-01 15:44:54.617 +08:00 [DBG] Start token request.
+2019-02-01 15:44:54.625 +08:00 [DBG] Start client validation
+2019-02-01 15:44:54.630 +08:00 [DBG] Start parsing Basic Authentication secret
+2019-02-01 15:44:54.635 +08:00 [DBG] Start parsing for secret in post body
+2019-02-01 15:44:54.655 +08:00 [DBG] Parser found secret: PostBodySecretParser
+2019-02-01 15:44:54.655 +08:00 [DBG] Secret id found: ro.client
+2019-02-01 15:44:54.671 +08:00 [DBG] client configuration validation for client ro.client succeeded.
+2019-02-01 15:44:54.685 +08:00 [DBG] Secret validator success: HashedSharedSecretValidator
+2019-02-01 15:44:54.685 +08:00 [DBG] Client validation success
+2019-02-01 15:44:54.698 +08:00 [DBG] Start token request validation
+2019-02-01 15:44:54.712 +08:00 [DBG] Start resource owner password token request validation
+2019-02-01 15:44:54.747 +08:00 [DBG] IsActive called from: ResourceOwnerValidation
+2019-02-01 15:44:54.748 +08:00 [DBG] Resource owner password token request validation success.
+2019-02-01 15:44:54.761 +08:00 [INF] Token request validation success
+{"ClientId":"ro.client","ClientName":null,"GrantType":"password","Scopes":"api1","AuthorizationCode":null,"RefreshToken":null,"UserName":"bob","AuthenticationContextReferenceClasses":null,"Tenant":null,"IdP":null,"Raw":{"grant_type":"password","client_id":"ro.client","client_secret":"***REDACTED***","username":"bob","password":"***REDACTED***"},"$type":"TokenRequestValidationLog"}
+2019-02-01 15:44:54.798 +08:00 [DBG] Getting claims for access token for client: ro.client
+2019-02-01 15:44:54.798 +08:00 [DBG] Getting claims for access token for subject: 2
+2019-02-01 15:44:54.806 +08:00 [DBG] Get profile called for subject 2 from client ro.client with claim types [] via ClaimsProviderAccessToken
+2019-02-01 15:44:54.809 +08:00 [DBG] Issued claims: []
+2019-02-01 15:44:54.877 +08:00 [DBG] Token request success.
+2019-02-01 15:45:31.317 +08:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2019-02-01 15:45:31.325 +08:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2019-02-01 15:45:31.326 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2019-02-01 15:45:31.330 +08:00 [DBG] Start discovery request
+2019-02-01 15:45:31.395 +08:00 [DBG] Request path /.well-known/openid-configuration/jwks matched to endpoint type Discovery
+2019-02-01 15:45:31.399 +08:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryKeyEndpoint
+2019-02-01 15:45:31.399 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2019-02-01 15:45:31.404 +08:00 [DBG] Start key discovery request
+2019-02-01 15:45:31.454 +08:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo: '[PII is hidden]', Current time: '[PII is hidden]'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters) in C:\agent2\_work\56\s\src\Microsoft.IdentityModel.Tokens\Validators.cs:line 274
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters) in C:\agent2\_work\56\s\src\System.IdentityModel.Tokens.Jwt\JwtSecurityTokenHandler.cs:line 1178
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters) in C:\agent2\_work\56\s\src\System.IdentityModel.Tokens.Jwt\JwtSecurityTokenHandler.cs:line 735
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken) in C:\agent2\_work\56\s\src\System.IdentityModel.Tokens.Jwt\JwtSecurityTokenHandler.cs:line 719
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2019-02-01 15:45:31.493 +08:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo: '[PII is hidden]', Current time: '[PII is hidden]'.
+2019-02-01 15:45:31.496 +08:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo: '[PII is hidden]', Current time: '[PII is hidden]'.
+2019-02-01 15:45:31.605 +08:00 [INF] AuthenticationScheme: Bearer was challenged.
+2019-02-01 15:45:42.520 +08:00 [INF] Successfully validated the token.
