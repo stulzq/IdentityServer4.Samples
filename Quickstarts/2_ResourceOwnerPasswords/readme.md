@@ -10,4 +10,4 @@ Nevertheless, this sample allows for an easy way to introduce users in identitys
 
 ## Tutorial
 
-The tutorial that goes along with this sample can be found here [Protecting an API using Passwords](http://docs.identityserver.io/en/release/quickstarts/2_resource_owner_passwords.html)
+The tutorial that goes along with this sample can be found here [Protecting an API using Passwords](http://docs.identityserver.io/en/latest/quickstarts/2_resource_owner_passwords.html)
