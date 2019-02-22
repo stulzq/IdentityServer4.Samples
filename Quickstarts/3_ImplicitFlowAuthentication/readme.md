@@ -4,4 +4,4 @@ This quickstart adds support for interactive user authentication using the OpenI
 
 ## Tutorial
 
-The tutorial that goes along with this sample can be found here [Adding User Authentication with OpenID Connect](http://docs.identityserver.io/en/release/quickstarts/3_interactive_login.html)
+The tutorial that goes along with this sample can be found here [Adding User Authentication with OpenID Connect](http://docs.identityserver.io/en/latest/quickstarts/3_interactive_login.html)
