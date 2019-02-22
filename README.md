@@ -1,8 +1,8 @@
-# IdentityServer4.Samples
+## 写在前面
 
-Samples for IdentityServer4.Quickstart & Practice
+>写于2018.9.12
 
-# Catalog
+我研究 IdentityServer4 是从.net core 1.1的时候开始的，那时候国内的中文资料比较少，我都是按照官方文档来研究的，整理成了笔记。这个系列文档，一些文章是完全翻译的，一些文章是采用翻译加我自己的经验结合而成的，还有一些根据国内的使用习惯进行了改编，比如第三方登录，官方文档用的google，而我用了国内用得非常多的QQ登录。我当时也没想到有这么多人看，还有就是当时对 IdentityServer4 的理解有限，在对一些专业术语的翻译上有所不足，但是直到现在我也一直在维护，对以前翻译不通顺的地方进行修改，对不足的地方及进行添加。最后谢谢大家的支持。
 
 ## 一.介绍
 
@@ -20,15 +20,15 @@ Samples for IdentityServer4.Quickstart & Practice
 
 - [设置和概述](http://www.cnblogs.com/stulzq/p/7493745.html "设置和概述")
 
-- [#1 使用客户端认证控制API访问](http://www.cnblogs.com/stulzq/p/7495129.html "使用客户端证书控制API访问")
+- [#1 使用客户端证书控制API访问（客户端授权模式）](http://www.cnblogs.com/stulzq/p/7495129.html "使用客户端证书控制API访问（客户端授权模式）")
 
-- [#2 使用密码认证方式控制API访问](http://www.cnblogs.com/stulzq/p/7509648.html "使用密码认证方式控制API访问")
+- [#2 使用密码认证方式控制API访问（资源所有者密码授权模式）](http://www.cnblogs.com/stulzq/p/7509648.html "使用密码认证方式控制API访问（资源所有者密码授权模式）")
 
-- [#3 使用OpenId Connect添加用户认证（implicit flow，简化流程）](http://www.cnblogs.com/stulzq/p/7797341.html "使用OpenId Connect添加用户认证")
+- [#3 使用OpenId Connect添加用户认证（隐式/简化流程授权模式）](http://www.cnblogs.com/stulzq/p/7797341.html "使用OpenId Connect添加用户认证")
 
-- [#4 添加外部认证支持之QQ登录](http://www.cnblogs.com/stulzq/p/7879101.html "添加外部认证支持之QQ登录")
+- [#4 添加外部认证支持之QQ登录（第三方登录，授权码模式）](http://www.cnblogs.com/stulzq/p/7879101.html "添加外部认证支持之QQ登录")
 
-- [#5 使用Hybrid Flow（混合流程）并添加API访问控制](http://www.cnblogs.com/stulzq/p/7833480.html "使用Hybrid Flow并添加API访问控制")
+- [#5 使用Hybrid Flow（混合流程授权模式）并添加API访问控制](http://www.cnblogs.com/stulzq/p/7833480.html "使用Hybrid Flow并添加API访问控制")
 
 - [#6 使用ASP.NET Core Identity](http://www.cnblogs.com/stulzq/p/8120129.html "使用ASP.NET Core Identity")
 
@@ -71,4 +71,25 @@ Samples for IdentityServer4.Quickstart & Practice
 ## 五.实战经验分享
 
 - [IdentityServer4实战 - 基于角色的权限控制及Claim详解](http://www.cnblogs.com/stulzq/p/8726002.html)
-- [IdentityServer4实战 - AccessToken 生命周期分析](http://www.cnblogs.com/stulzq/p/8998274.html) (有坑必看)
+
+- [IdentityServer4实战 - AccessToken 生命周期分析](http://www.cnblogs.com/stulzq/p/8998274.html)
+
+- [IdentityServer4实战 - 必须使用HTTPS问题解析](https://www.cnblogs.com/stulzq/p/9594623.html)
+
+- 5 Token加密和签名所用证书解析 (集群部署必看) 
+
+- [IdentityServer4实战 - JWT Token Issuer 详解](https://www.cnblogs.com/stulzq/p/10339024.html)
+
+- [IdentityServer4实战 - API与IdentityServer的交互过程解析](https://www.cnblogs.com/stulzq/p/9226059.html)
+
+- [IdentityServer4实战 - 谈谈 JWT Token 的安全策略](https://www.cnblogs.com/stulzq/p/9678501.html)
+
+- [IdentityServer4实战 - 与API单项目整合](https://www.cnblogs.com/stulzq/p/10346095.html)
+
+>不能点击的是还未更新的
+
+## 六.其他园友分享
+
+- [IdentityServer4 知多少](https://www.cnblogs.com/sheng-jie/p/9430920.html) by 圣杰
+
+- [关于 IdentityServer4 中的 Jwt Token 与 Reference Token](https://www.cnblogs.com/Irving/p/9357539.html) by 花儿笑弯了腰
