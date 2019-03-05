@@ -20,21 +20,21 @@
 
 - [设置和概述](http://www.cnblogs.com/stulzq/p/7493745.html "设置和概述")
 
-- [#1 使用客户端证书控制API访问（客户端授权模式）](http://www.cnblogs.com/stulzq/p/7495129.html "使用客户端证书控制API访问（客户端授权模式）")
+- [#1 使用客户端认证控制API访问（客户端授权模式）](http://www.cnblogs.com/stulzq/p/7495129.html "使用客户端证书控制API访问（客户端授权模式）")
 
 - [#2 使用密码认证方式控制API访问（资源所有者密码授权模式）](http://www.cnblogs.com/stulzq/p/7509648.html "使用密码认证方式控制API访问（资源所有者密码授权模式）")
 
-- [#3 使用OpenId Connect添加用户认证（隐式/简化流程授权模式）](http://www.cnblogs.com/stulzq/p/7797341.html "使用OpenId Connect添加用户认证")
+- [#3 使用OpenId Connect添加用户认证（简化流程授权模式）](http://www.cnblogs.com/stulzq/p/7797341.html "使用OpenId Connect添加用户认证")
 
-- [#4 添加外部认证支持之QQ登录（第三方登录，授权码模式）](http://www.cnblogs.com/stulzq/p/7879101.html "添加外部认证支持之QQ登录")
+- [#4 添加外部认证支持之QQ登录（第三方登录，简化流程授权模式）](http://www.cnblogs.com/stulzq/p/7879101.html "添加外部认证支持之QQ登录")
 
 - [#5 使用Hybrid Flow（混合流程授权模式）并添加API访问控制](http://www.cnblogs.com/stulzq/p/7833480.html "使用Hybrid Flow并添加API访问控制")
 
-- [#6 使用ASP.NET Core Identity](http://www.cnblogs.com/stulzq/p/8120129.html "使用ASP.NET Core Identity")
+- [#6 使用 JavaScript 客户端（授权码模式）](http://www.cnblogs.com/stulzq/p/8120211.html "使用JavaScript客户端")
 
-- [#7 使用JavaScript客户端](http://www.cnblogs.com/stulzq/p/8120211.html "使用JavaScript客户端")
+- [#7 使用Entity Framework 存储配置和操作数据](http://www.cnblogs.com/stulzq/p/8120518.html "使用Entity Framework 存储配置和操作数据")
 
-- [#8 使用Entity Framework 存储配置和操作数据](http://www.cnblogs.com/stulzq/p/8120518.html "使用Entity Framework 存储配置和操作数据")
+- [#8 使用ASP.NET Core Identity](http://www.cnblogs.com/stulzq/p/8120129.html "使用ASP.NET Core Identity")
 
 - [第三方快速入门和示例](http://www.cnblogs.com/stulzq/p/8120570.html "第三方快速入门和示例")
 
@@ -78,11 +78,11 @@
 
 - 5 Token加密和签名所用证书解析 (集群部署必看) 
 
-- [IdentityServer4实战 - JWT Token Issuer 详解](https://www.cnblogs.com/stulzq/p/10339024.html)
+- [IdentityServer4实战 - JWT Issuer 详解](https://www.cnblogs.com/stulzq/p/10339024.html)
 
 - [IdentityServer4实战 - API与IdentityServer的交互过程解析](https://www.cnblogs.com/stulzq/p/9226059.html)
 
-- [IdentityServer4实战 - 谈谈 JWT Token 的安全策略](https://www.cnblogs.com/stulzq/p/9678501.html)
+- [IdentityServer4实战 - 谈谈 JWT 的安全策略](https://www.cnblogs.com/stulzq/p/9678501.html)
 
 - [IdentityServer4实战 - 与API单项目整合](https://www.cnblogs.com/stulzq/p/10346095.html)
 
