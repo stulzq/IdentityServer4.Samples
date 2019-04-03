@@ -20,10 +20,9 @@ namespace MvcClient.Controllers
             return View();
         }
 
-        public async Task Logout()
+        public IActionResult Logout()
         {
-            await HttpContext.SignOutAsync("Cookies");
-            await HttpContext.SignOutAsync("oidc");
+            return SignOut("Cookies", "oidc");
         }
 
         public IActionResult Error()
