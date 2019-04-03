@@ -11,12 +11,12 @@ namespace ResourceOwnerClient
 {
     public class Program
     {
-        public static void Main(string[] args) => MainAsync().GetAwaiter().GetResult();
-
-        private static async Task MainAsync()
+        private static async Task Main()
         {
             // discover endpoints from metadata
-            var disco = await DiscoveryClient.GetAsync("http://localhost:5000");
+            var client = new HttpClient();
+
+            var disco = await client.GetDiscoveryDocumentAsync("http://localhost:5000");
             if (disco.IsError)
             {
                 Console.WriteLine(disco.Error);
@@ -24,8 +24,16 @@ namespace ResourceOwnerClient
             }
 
             // request token
-            var tokenClient = new TokenClient(disco.TokenEndpoint, "ro.client", "secret");
-            var tokenResponse = await tokenClient.RequestResourceOwnerPasswordAsync("alice", "password", "api1");
+            var tokenResponse = await client.RequestPasswordTokenAsync(new PasswordTokenRequest
+            {
+                Address = disco.TokenEndpoint,
+                ClientId = "ro.client",
+                ClientSecret = "secret",
+
+                UserName = "alice",
+                Password = "password",
+                Scope = "api1"
+            });
 
             if (tokenResponse.IsError)
             {
@@ -37,10 +45,10 @@ namespace ResourceOwnerClient
             Console.WriteLine("\n\n");
 
             // call api
-            var client = new HttpClient();
-            client.SetBearerToken(tokenResponse.AccessToken);
+            var apiClient = new HttpClient();
+            apiClient.SetBearerToken(tokenResponse.AccessToken);
 
-            var response = await client.GetAsync("http://localhost:5001/identity");
+            var response = await apiClient.GetAsync("http://localhost:5001/identity");
             if (!response.IsSuccessStatusCode)
             {
                 Console.WriteLine(response.StatusCode);
